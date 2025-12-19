@@ -1,0 +1,107 @@
+================================================================================
+HOUSE STACK - HOUSE CHORD STACK OSCILLATOR
+================================================================================
+
+FEATURES:
+- 5 wave types
+- Detune control
+- Stereo spread
+- 16 chord intervals
+- Chord spread control
+- Tone (tilt EQ)
+- Attack shape
+- Harmonic bend
+- Glide (portamento)
+- Modulation amount
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls WAVE TYPE (0-4)
+  → Selects waveform
+
+SHAPE KNOB (Knob B):
+  → Controls DETUNE
+  → Higher = more detune
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. WAVE TYPE (TYPE knob)
+   Range: 0-4
+   Default: varies
+   Use: Waveform selection
+   - 0-4: Different waveforms
+
+1. DETUNE (SHAPE knob)
+   Range: 0-100%
+   Default: varies
+   Use: Detuning spread
+   - 0%: No detune
+   - 50%: Moderate detune
+   - 100%: Maximum detune
+
+2. STEREO SPREAD
+   Range: 0-100%
+   Default: varies
+   Use: Stereo width
+   - 0%: Mono
+   - 50%: Normal stereo
+   - 100%: Ultra-wide
+
+3. CHORD INTERVAL
+   Range: 0-15
+   Default: varies
+   Use: Chord interval selection
+   - 0-15: Different intervals
+
+4. CHORD SPREAD
+   Range: 0-100%
+   Default: varies
+   Use: Chord spread amount
+   - 0%: Tight
+   - 50%: Moderate spread
+   - 100%: Wide spread
+
+5. TONE (TILT EQ)
+   Range: 0-100%
+   Default: varies
+   Use: Tone tilt EQ
+   - 0%: Dark
+   - 50%: Neutral
+   - 100%: Bright
+
+6. ATTACK SHAPE
+   Range: 0-100%
+   Default: varies
+   Use: Attack envelope shape
+   - 0%: Quick attack
+   - 50%: Moderate attack
+   - 100%: Slow attack
+
+7. HARMONIC BEND
+   Range: 0-100%
+   Default: varies
+   Use: Harmonic bending amount
+   - 0%: No bend
+   - 50%: Moderate bend
+   - 100%: Maximum bend
+
+8. GLIDE
+   Range: 0-100%
+   Default: varies
+   Use: Portamento time
+   - 0%: No glide
+   - 50%: Moderate glide
+   - 100%: Slow glide
+
+9. MOD AMOUNT
+   Range: 0-100%
+   Default: varies
+   Use: Modulation amount
+   - 0%: No modulation
+   - 50%: Moderate modulation
+   - 100%: Maximum modulation

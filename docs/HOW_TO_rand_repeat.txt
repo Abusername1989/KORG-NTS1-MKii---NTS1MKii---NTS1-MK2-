@@ -1,0 +1,121 @@
+═══════════════════════════════════════════════════════════════
+RANDREPT - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+MODULE TYPE: revfx (Reverb Effect)
+
+INSTALLATION:
+Upload via KORG KONTROL Editor and select in REV menu on NTS-1 mkII
+
+═══════════════════════════════════════════════════════════════
+CONTROLS (NTS-1 mkII)
+═══════════════════════════════════════════════════════════════
+
+FRONT PANEL:
+- TYPE knob: Select mode
+- A knob (SHAPE): DENSITY (Grain Density)
+- B knob (ALT): CHAOS (Chaos Amount)
+
+PARAMETER MENU:
+Hold REV button + turn TYPE knob to select parameter
+Adjust with A/B knobs
+
+PARAMETERS:
+0. DENSITY - Grain Density (Range: 0-1023, Default: 768)
+1. CHAOS - Chaos Amount (Range: 0-1023, Default: 614)
+2. MUTATE - Mutation Rate (Range: 0-1023, Default: 512)
+3. GRAINSIZE - Grain Size (Range: 0-1023, Default: 819)
+4. PITCH - Pitch Variation (Range: 0-1023, Default: 307)
+5. FEEDBACK - Feedback Amount (Range: 0-1023, Default: 666)
+6. MIX - Dry/Wet Mix (Range: 0-1023, Default: 409)
+7. MODE - Randomization Mode (Range: 0-7, Default: 1)
+8. PATTERN - Pattern Memory (Range: 0-7, Default: 0)
+9. FREEZE - Freeze/Evolve (Range: 0-1, Default: 0)
+
+═══════════════════════════════════════════════════════════════
+FEATURES
+═══════════════════════════════════════════════════════════════
+
+SELF-RANDOMIZING AUDIO REPEATER
+
+A generative granular repeater that evolves itself!
+
+GRAIN SYSTEM:
+32 concurrent grains:
+- Each grain: 2048 sample buffer (42ms @ 48kHz)
+- Polyphonic playback (all grains simultaneous)
+- Independent parameters per grain:
+  * Position in buffer
+  * Playback speed (pitch)
+  * Volume envelope
+  * Pan position
+  * Filter frequency
+  * Reverse flag
+
+PROBABILITY ENGINE:
+Markov Chain system:
+- 8×8 transition matrix
+- Each state has probability parameters
+- State transitions every 100-500ms (mutation rate)
+
+MUTATION SYSTEM:
+Pattern evolution:
+1. Current state → Probability table
+2. Random selection based on weights
+3. Smooth crossfade to new state
+4. Update transition probabilities
+
+8 RANDOMIZATION MODES:
+0. GENTLE - Subtle variations
+1. MODERATE - Clear rhythmic variations
+2. WILD - Extreme chaos
+3. GLITCH - Digital artifacts
+4. RHYTHMIC - Quantized to grid
+5. MELODIC - Musical intervals
+6. AMBIENT - Long, evolving textures
+7. INDUSTRIAL - Harsh, metallic
+
+ADDITIONAL FEATURES:
+- Pattern memory (8 snapshots)
+- Tempo sync with quantization
+- Spectral filtering per grain
+- Freeze/evolve control
+
+═══════════════════════════════════════════════════════════════
+PRESETS/PATCHES (if applicable)
+═══════════════════════════════════════════════════════════════
+
+MODE parameter (0-7): 8 randomization modes (Gentle, Moderate, Wild, Glitch, Rhythmic, Melodic, Ambient, Industrial)
+PATTERN parameter (0-7): 8 pattern memory slots
+FREEZE parameter (0-1): Freeze current pattern / Evolve continuously
+
+═══════════════════════════════════════════════════════════════
+EXAMPLE SETTINGS
+═══════════════════════════════════════════════════════════════
+
+GENERATIVE TEXTURE:
+- DENSITY: 75% (many grains)
+- CHAOS: 60% (moderate chaos)
+- MUTATE: 50% (balanced mutation)
+- GRAINSIZE: 80% (large grains)
+- MODE: 6 (Ambient)
+
+GLITCH CHAOS:
+- DENSITY: 90% (maximum grains)
+- CHAOS: 100% (maximum chaos)
+- MUTATE: 80% (fast mutation)
+- MODE: 3 (Glitch)
+- FREEZE: 0 (Evolve)
+
+═══════════════════════════════════════════════════════════════
+TECHNICAL INFO
+═══════════════════════════════════════════════════════════════
+
+Platform: nts1mkii
+API: 2.0-0
+Module: revfx
+Unit ID: 0x6U
+Version: 1.0-0
+
+═══════════════════════════════════════════════════════════════
+

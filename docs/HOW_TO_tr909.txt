@@ -1,0 +1,143 @@
+═══════════════════════════════════════════════════════════════
+TR909 - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+MODULE TYPE: osc (Oscillator)
+
+INSTALLATION:
+Upload via KORG KONTROL Editor and select in OSC menu on NTS-1 mkII
+
+═══════════════════════════════════════════════════════════════
+CONTROLS (NTS-1 mkII)
+═══════════════════════════════════════════════════════════════
+
+FRONT PANEL:
+- TYPE knob: Select patch/preset
+- A knob (SHAPE): ATTACK (Attack Time)
+- B knob (ALT): DECAY (Decay Time)
+
+PARAMETER MENU:
+Hold OSC button + turn TYPE knob to select parameter
+Adjust with A/B knobs
+
+PARAMETERS:
+0. ATTACK - Attack Time (Range: 0-1023, Default: 614)
+1. DECAY - Decay Time (Range: 0-1023, Default: 512)
+2. TONE - Tone/Brightness (Range: 0-1023, Default: 819)
+3. PUNCH - Punch Level (Range: 0-1023, Default: 768)
+4. SNAP - Snap Level (Range: 0-1023, Default: 307)
+5. METALLIC - Metallic Character (Range: 0-1023, Default: 409)
+6. NOISE - Noise Level (Range: 0-1023, Default: 256)
+7. DIST - Distortion (Range: 0-1023, Default: 666)
+8. SOUND - Sound Selection (Range: 0-11, Default: 0)
+9. PRESET - Preset Kit (Range: 0-7, Default: 0)
+
+═══════════════════════════════════════════════════════════════
+FEATURES
+═══════════════════════════════════════════════════════════════
+
+ROLAND TR-909 DRUM SYNTHESIZER ENGINE
+
+ARCHITECTURE:
+
+909 KICK:
+- Sine wave with pitch envelope
+- Starts at ~150Hz, drops to ~40Hz
+- 2-stage pitch envelope (fast + slow)
+- Lowpass filter (sweeps with pitch)
+- Optional harmonic distortion
+- Click layer (noise burst)
+- Attack: <1ms (instant punch)
+- Decay: 50-800ms (adjustable boom)
+
+909 SNARE:
+DUAL LAYER:
+1. TONE LAYER (Body):
+   - 2 triangle waves (180Hz + 330Hz)
+   - Short decay (100-300ms)
+   - Lowpass filtered
+
+2. NOISE LAYER (Snap):
+   - High-passed white noise
+   - Band-pass filter (1-8kHz)
+   - Very short decay (50-150ms)
+
+MIX: 50/50 tone/noise (adjustable)
+
+909 OPEN HI-HAT:
+- 6 square wave oscillators (prime ratios)
+- Frequencies: 296, 387, 561, 742, 923, 1107 Hz
+- Band-pass filter (6-12kHz)
+- High-pass filter (>8kHz for sizzle)
+- Fast attack (<1ms)
+- Long decay (200-2000ms for "open")
+- Exponential curve
+
+ADDITIONAL FEATURES:
+- Pitch modulation (for kick/snare tuning)
+- Distortion/saturation
+- Velocity layers (127 steps)
+- Note pitch affects tuning
+- 12 drum sounds (selectable)
+- 8 preset kits
+
+═══════════════════════════════════════════════════════════════
+PRESETS/PATCHES (if applicable)
+═══════════════════════════════════════════════════════════════
+
+SOUND parameter (0-11):
+0. KICK 1 - Deep 909 kick
+1. KICK 2 - Punchy techno kick
+2. KICK 3 - Hard kick
+3. SNARE 1 - Classic 909 snare
+4. SNARE 2 - Tight snare
+5. SNARE 3 - Fat snare
+6. OPEN HAT 1 - Long decay
+7. OPEN HAT 2 - Medium
+8. OPEN HAT 3 - Short
+9. CLOSED HAT - Quick chick
+10. CLAP - Hand clap
+11. RIM - Rimshot
+
+PRESET parameter (0-7):
+0. CLASSIC 909 - Original sound
+1. TECHNO - Hard & punchy
+2. HOUSE - Deep & warm
+3. TRANCE - Bright & long
+4. HARDCORE - Distorted
+5. MINIMAL - Clean & tight
+6. ACID - Aggressive
+7. CUSTOM - User settings
+
+═══════════════════════════════════════════════════════════════
+EXAMPLE SETTINGS
+═══════════════════════════════════════════════════════════════
+
+CLASSIC 909 KICK:
+- SOUND: 0 (KICK 1)
+- ATTACK: 60% (instant)
+- DECAY: 50% (medium decay)
+- TONE: 80% (bright)
+- PUNCH: 75% (strong punch)
+- PRESET: 0 (CLASSIC 909)
+
+TECHNO SNARE:
+- SOUND: 3 (SNARE 1)
+- ATTACK: 10% (very fast)
+- DECAY: 40% (short decay)
+- SNAP: 50% (strong snap)
+- DIST: 70% (distorted)
+- PRESET: 1 (TECHNO)
+
+═══════════════════════════════════════════════════════════════
+TECHNICAL INFO
+═══════════════════════════════════════════════════════════════
+
+Platform: nts1mkii
+API: 2.0-0
+Module: osc
+Unit ID: 0xAU
+Version: 1.0-0
+
+═══════════════════════════════════════════════════════════════
+

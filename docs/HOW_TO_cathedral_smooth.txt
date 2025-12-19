@@ -1,0 +1,102 @@
+═══════════════════════════════════════════════════════════════
+CATHEDRL+ - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+MODULE TYPE: revfx (Reverb Effect)
+
+INSTALLATION:
+Upload via KORG KONTROL Editor and select in REV menu on NTS-1 mkII
+
+═══════════════════════════════════════════════════════════════
+CONTROLS (NTS-1 mkII)
+═══════════════════════════════════════════════════════════════
+
+FRONT PANEL:
+- TYPE knob: Select mode
+- A knob (SHAPE): TIME (Reverb Time)
+- B knob (ALT): DEPTH (Depth)
+
+PARAMETER MENU:
+Hold REV button + turn TYPE knob to select parameter
+Adjust with A/B knobs
+
+PARAMETERS:
+0. TIME - Reverb Time (Range: 0-1023, Default: 614)
+1. DEPTH - Depth (Range: 0-1023, Default: 768)
+2. MIX - Dry/Wet Mix (Range: -100-100, Default: 75)
+3. SIZE - Room Size (Range: 0-1023, Default: 512)
+4. DAMP - Damping (Range: 0-1023, Default: 409)
+5. DIFF - Diffusion (Range: 0-1023, Default: 307)
+6. EARLY - Early Reflections (Range: 0-1023, Default: 256)
+7. PREDLY - Pre-Delay Time (Range: 0-1023, Default: 358)
+8. REVS - Reverse Speed (Range: 0-1023, Default: 0)
+9. REVMIX - Reverse Mix (Range: 0-1023, Default: 102)
+10. MODE - Mode selection (Range: 0-3, Default: 0)
+
+═══════════════════════════════════════════════════════════════
+FEATURES
+═══════════════════════════════════════════════════════════════
+
+CATHEDRAL SMOOTH - Fixed reverb without crackling
+
+Stable reverb with smooth infinite decay
+
+FIXES vs original Cathedral:
+- Safer feedback limits (max 0.92 instead of 0.98)
+- Soft clipping in comb filters
+- Adaptive damping (increases with feedback)
+- Output soft limiting
+- Denormal prevention
+- State clipping in all filters
+
+ALGORITHM:
+- 8 parallel Schroeder allpass filters
+- 4 comb filters with cross-feedback
+- Early reflections (8 taps)
+- Pre-delay buffer (500ms max)
+- Reverse buffer (2 seconds)
+- Adaptive damping
+- Stereo width control
+
+STABILITY FEATURES:
+- Prevents digital clipping and crackling
+- Smooth infinite decay
+- Safe operation at long reverb times
+- No filter instability
+
+═══════════════════════════════════════════════════════════════
+PRESETS/PATCHES (if applicable)
+═══════════════════════════════════════════════════════════════
+
+MODE parameter (0-3): 4 reverb modes (Cathedral, Hall, Reverse, Shimmer)
+
+═══════════════════════════════════════════════════════════════
+EXAMPLE SETTINGS
+═══════════════════════════════════════════════════════════════
+
+SMOOTH INFINITE:
+- TIME: 90% (very long reverb)
+- DEPTH: 80% (deep)
+- SIZE: 70% (large room)
+- DAMP: 50% (adaptive damping)
+- MODE: 0 (Cathedral)
+
+STABLE HALL:
+- TIME: 70% (long reverb)
+- DEPTH: 75% (deep)
+- SIZE: 60% (medium-large room)
+- DIFF: 40% (good diffusion)
+- MODE: 1 (Hall)
+
+═══════════════════════════════════════════════════════════════
+TECHNICAL INFO
+═══════════════════════════════════════════════════════════════
+
+Platform: nts1mkii
+API: 2.0-0
+Module: revfx
+Unit ID: 0x5U
+Version: 1.0-0
+
+═══════════════════════════════════════════════════════════════
+

@@ -1,0 +1,318 @@
+================================================================================
+S-1 TWEAK - ROLAND AIRA S-1 / SH-101 INSPIRED SYNTHESIZER
+================================================================================
+
+ULTIMATE TECHNO/HOUSE OSCILLATOR!
+
+================================================================================
+OVERVIEW
+================================================================================
+
+S-1 TWEAK is inspired by Roland SH-101 and AIRA Compact S-1, optimized for:
+- Techno bass (SH-101 style mono synth)
+- House chords (paraphonic polyphony)
+- Ratcheted leads (sub-steps like S-1)
+- Evolving pads (motion recording)
+- Metallic FX (OSC Draw/Chop)
+- Ambient soundscapes
+
+FEATURES:
+- SH-101 style VA core (saw, pulse, sub, noise)
+- S-1 OSC Draw (waveform morphing)
+- S-1 OSC Chop/Comb (harmonic slicing)
+- 4 modes: Mono / Para-Poly / Unison / Chord
+- Built-in ratcheting (sub-steps like S-1)
+- Motion recording (evolving patterns)
+- Probability/humanization
+- House-friendly chord progressions
+- Works seamlessly with NTS-1 ARP/SEQ
+
+Based on Korg logue SDK oscillator template
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls WAVE MIX (saw/pulse blend)
+  → 0% = pure saw, 100% = pure pulse
+
+SHAPE KNOB (Knob B):
+  → Controls DRAW SHAPE (waveform morphing)
+  → 0% = pure waveforms, 100% = maximum morphing
+
+================================================================================
+4 MODES
+================================================================================
+
+0-24%: MONO
+   → SH-101 style legato
+   → Perfect for: Techno bass, mono leads
+   → Single voice, legato portamento
+
+25-49%: POLY
+   → 4 voices paraphonic
+   → Perfect for: House chords, pads
+   → Polyphonic playback
+
+50-74%: UNISON
+   → Stacked detuned voices
+   → Perfect for: Thick leads, wide pads
+   → Multiple voices per note
+
+75-100%: CHORD
+   → House progressions
+   → Perfect for: Chord stabs, progressions
+   → Automatic chord voicing
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. WAVE MIX (TYPE knob)
+   Range: 0-100%
+   Default: 50%
+   Use: Blend between saw and pulse
+   - 0%: Pure sawtooth
+   - 50%: Balanced mix
+   - 100%: Pure pulse/square
+
+1. DRAW SHAPE (SHAPE knob)
+   Range: 0-100%
+   Default: 0%
+   Use: S-1 OSC Draw waveform morphing
+   - 0%: Pure waveforms (no morphing)
+   - 50%: Moderate morphing
+   - 100%: Maximum morphing (complex shapes)
+
+2. CHOP/COMB
+   Range: 0-100%
+   Default: 0% (Off)
+   Use: S-1 OSC Chop/Comb (harmonic slicing)
+   - 0%: No chopping
+   - 50%: Moderate chopping
+   - 100%: Maximum chopping (metallic)
+
+3. MODE
+   Range: 0-100%
+   Default: 0% (MONO)
+   Use: Select playback mode
+   - 0-24%: MONO (legato)
+   - 25-49%: POLY (4 voices)
+   - 50-74%: UNISON (stacked)
+   - 75-100%: CHORD (house progressions)
+
+4. CHORD TYPE
+   Range: 0-100%
+   Default: 0% (Major)
+   Use: Chord voicing (when MODE = CHORD)
+   - 0%: Major
+   - 25%: Minor
+   - 50%: 7th
+   - 75%: Sus4
+   - 100%: Custom
+
+5. DETUNE/SPREAD
+   Range: 0-100%
+   Default: 30%
+   Use: Detuning between voices
+   - 0%: No detune (tight)
+   - 50%: Moderate spread
+   - 100%: Maximum spread (wide)
+
+6. NOISE/RISER
+   Range: 0-100%
+   Default: 10%
+   Use: White noise level
+   - 0%: No noise
+   - 50%: Moderate noise
+   - 100%: Strong noise (texture)
+
+7. RATTLE/SUBSTEP
+   Range: 0-100%
+   Default: 0% (Off)
+   Use: Ratcheting (sub-steps like S-1)
+   - 0%: No ratcheting
+   - 50%: Moderate ratcheting
+   - 100%: Maximum ratcheting (4× repeats)
+
+8. PROBABILITY
+   Range: 0-100%
+   Default: 0% (Deterministic)
+   Use: Humanization/randomness
+   - 0%: All notes play (deterministic)
+   - 50%: 50% probability
+   - 100%: Maximum randomness
+
+9. MOTION
+   Range: 0-100%
+   Default: 0% (Static)
+   Use: Motion recording (evolving patterns)
+   - 0%: Static (no motion)
+   - 50%: Moderate motion
+   - 100%: Maximum motion (evolving)
+
+================================================================================
+INSTANT PRESETS
+================================================================================
+
+🎛️ TECHNO BASS
+   WAVEMIX:  30%
+   DRAW:     0%
+   CHOP:     0%
+   MODE:     0% (MONO)
+   CHORD:    0%
+   DETUNE:   20%
+   NOISE:    5%
+   RATTLE:   0%
+   PROBAB:   0%
+   MOTION:   0%
+   → Classic SH-101 style techno bass
+
+🎹 HOUSE CHORD
+   WAVEMIX:  50%
+   DRAW:     10%
+   CHOP:     0%
+   MODE:     50% (POLY)
+   CHORD:    0% (Major)
+   DETUNE:   40%
+   NOISE:    0%
+   RATTLE:   0%
+   PROBAB:   10%
+   MOTION:   20%
+   → House chord progression
+
+🎚️ RATCHETED LEAD
+   WAVEMIX:  60%
+   DRAW:     20%
+   CHOP:     30%
+   MODE:     25% (POLY)
+   CHORD:    0%
+   DETUNE:   50%
+   NOISE:    10%
+   RATTLE:   70%
+   PROBAB:   20%
+   MOTION:   30%
+   → Ratcheted lead with motion
+
+🔊 METALLIC FX
+   WAVEMIX:  70%
+   DRAW:     80%
+   CHOP:     90%
+   MODE:     50% (UNISON)
+   CHORD:    0%
+   DETUNE:   60%
+   NOISE:    30%
+   RATTLE:   40%
+   PROBAB:   40%
+   MOTION:   50%
+   → Metallic, evolving texture
+
+================================================================================
+TECHNICAL DETAILS
+================================================================================
+
+ALGORITHM:
+- SH-101 style VA core (saw, pulse, sub, noise)
+- S-1 OSC Draw (waveform morphing)
+- S-1 OSC Chop/Comb (harmonic slicing)
+- Mode switching (Mono/Poly/Unison/Chord)
+- Ratcheting (sub-step repeats)
+- Motion recording (LFO-based evolution)
+- Probability (random note skipping)
+- Chord voicing (house progressions)
+
+MEMORY:
+- Efficient voice management
+- Optimized for NTS-1 mkII
+
+SIGNAL FLOW:
+Oscillator → Draw → Chop/Comb → Mode → Detune →
+Noise → Rattle → Probability → Motion → Output
+
+================================================================================
+USAGE TIPS
+================================================================================
+
+1. TECHNO BASS:
+   - MODE: MONO (0-24%)
+   - WAVEMIX: 20-40%
+   - DETUNE: 10-30%
+   - NOISE: 0-10%
+   - RATTLE: 0-20%
+
+2. HOUSE CHORDS:
+   - MODE: POLY (25-49%) or CHORD (75-100%)
+   - WAVEMIX: 40-60%
+   - DETUNE: 30-50%
+   - PROBABILITY: 10-30%
+   - MOTION: 20-40%
+
+3. RATCHETED LEADS:
+   - MODE: POLY (25-49%) or UNISON (50-74%)
+   - RATTLE: 50-100%
+   - DETUNE: 40-60%
+   - MOTION: 30-50%
+
+4. METALLIC FX:
+   - DRAW: 60-100%
+   - CHOP: 70-100%
+   - NOISE: 20-40%
+   - MOTION: 40-60%
+
+5. EVOLVING PADS:
+   - MODE: POLY (25-49%) or UNISON (50-74%)
+   - DETUNE: 50-80%
+   - MOTION: 50-100%
+   - PROBABILITY: 20-40%
+
+================================================================================
+PARAMETER LIMITS
+================================================================================
+
+✅ 10 parameters (within NTS-1 mkII limit)
+✅ All parameters accessible via hardware + menu
+✅ Mode switching (4 modes)
+✅ Works with NTS-1 ARP/SEQ
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Q: No sound output
+A: Check MODE is set correctly, ensure WAVEMIX > 0%
+
+Q: Sound too thin
+A: Increase DETUNE (50-80%), use UNISON mode (50-74%)
+
+Q: Ratcheting not working
+A: Ensure RATTLE > 0%, works best with ARP/SEQ active
+
+Q: Motion not audible
+A: Increase MOTION (40-100%), works over time (evolving)
+
+Q: Chord mode not working
+A: Set MODE to 75-100% (CHORD), adjust CHORD TYPE
+
+================================================================================
+VERSION INFO
+================================================================================
+
+Version: 1.0-0
+API: 2.0-0
+Platform: NTS-1 mkII
+Module: osc (Oscillator)
+Parameters: 10
+
+================================================================================
+CREDITS
+================================================================================
+
+Based on Korg logue SDK
+Inspired by:
+- Roland SH-101 (classic mono synth)
+- Roland AIRA Compact S-1 Tweak Synth
+- House/techno production techniques
+
+================================================================================
+

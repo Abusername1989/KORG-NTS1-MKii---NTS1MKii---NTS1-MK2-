@@ -1,0 +1,106 @@
+================================================================================
+ARP BEAST - ADVANCED ARPEGGIATOR
+================================================================================
+
+FEATURES:
+- 16 pattern types
+- 1-4 octave range
+- Swing control
+- Gate time control
+- Accent system
+- Probability (note skipping)
+- 8 harmony modes
+- 8 tempo multipliers
+- Randomization
+- Dry/wet mix
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls PATTERN (0-15)
+  → Selects arpeggio pattern
+
+SHAPE KNOB (Knob B):
+  → Controls OCTAVES (1-4)
+  → Higher = more octaves
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. PATTERN (TYPE knob)
+   Range: 0-15
+   Default: varies
+   Use: Arpeggio pattern selection
+   - 0-15: Different patterns
+
+1. OCTAVES (SHAPE knob)
+   Range: 1-4
+   Default: varies
+   Use: Octave range
+   - 1: Single octave
+   - 2: Two octaves
+   - 3: Three octaves
+   - 4: Four octaves
+
+2. SWING
+   Range: 0-100%
+   Default: varies
+   Use: Swing/shuffle amount
+   - 0%: Straight timing
+   - 50%: Moderate swing
+   - 100%: Maximum swing
+
+3. GATE
+   Range: 0-100%
+   Default: varies
+   Use: Gate time (note length)
+   - 0%: Very short
+   - 50%: Moderate gate
+   - 100%: Full gate
+
+4. ACCENT
+   Range: 0-100%
+   Default: varies
+   Use: Accent amount
+   - 0%: No accent
+   - 50%: Moderate accent
+   - 100%: Maximum accent
+
+5. PROBABILITY
+   Range: 0-100%
+   Default: varies
+   Use: Note skip probability
+   - 0%: No skipping
+   - 50%: Moderate skipping
+   - 100%: Maximum skipping
+
+6. HARMONY
+   Range: 0-7
+   Default: varies
+   Use: Harmony mode
+   - 0-7: Different harmony modes
+
+7. TEMPO MULT
+   Range: 0-7
+   Default: varies
+   Use: Tempo multiplier
+   - 0-7: Different tempo multipliers
+
+8. RANDOMIZE
+   Range: 0-100%
+   Default: varies
+   Use: Randomization amount
+   - 0%: No randomization
+   - 50%: Moderate randomization
+   - 100%: Maximum randomization
+
+9. MIX
+   Range: 0-100%
+   Default: varies
+   Use: Dry/wet balance
+   - 0%: Full dry
+   - 50%: Balanced
+   - 100%: Full wet

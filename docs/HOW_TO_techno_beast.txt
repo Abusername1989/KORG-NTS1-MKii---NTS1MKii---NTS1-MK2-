@@ -1,0 +1,120 @@
+================================================================================
+TECHNO BEAST - ULTIMATE LEAD/BASS OSCILLATOR
+================================================================================
+
+FEATURES:
+- Supersaw/Supersquare unison engine (3-7 voices)
+- Octave doubling mode (perfect octaves)
+- Sub oscillator (-1 & -2 octaves)
+- Hard sync (classic acid techno)
+- PWM modulation (auto-sweep)
+- Built-in resonant filter
+- Analog-style overdrive
+- Velocity sensitivity (accent)
+- Portamento (glide)
+- Phase spread control
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Selects MODE (0-3)
+  → UNISON SAW / UNISON SQR / OCTAVE SAW / OCTAVE SQR
+
+SHAPE KNOB (Knob B):
+  → Controls DETUNE/SPREAD
+  → Higher = more detuning between voices
+
+================================================================================
+11 PARAMETERS
+================================================================================
+
+0. MODE (TYPE knob)
+   Range: 0-3
+   Default: 0 (UNISON SAW)
+   Use: Select oscillator mode
+   - 0: UNISON SAW (7 voices, classic supersaw)
+   - 1: UNISON SQR (5 voices, supersquare)
+   - 2: OCTAVE SAW (3 octaves, sawtooth)
+   - 3: OCTAVE SQR (3 octaves, square)
+
+1. DETUNE (SHAPE knob)
+   Range: 0-100%
+   Default: 60%
+   Use: Detuning spread between unison voices
+   - 0%: No detune (tight, focused)
+   - 50%: Moderate spread (musical)
+   - 100%: Maximum spread (wide, lush)
+
+2. SUB MIX
+   Range: 0-100%
+   Default: 40%
+   Use: Sub oscillator level (-1 & -2 octaves)
+   - 0%: No sub
+   - 50%: Balanced sub
+   - 100%: Strong sub (thick bass)
+
+3. SYNC
+   Range: 0-100%
+   Default: 0% (Off)
+   Use: Hard sync amount (classic acid techno)
+   - 0%: No sync
+   - 50%: Moderate sync (harmonic)
+   - 100%: Maximum sync (aggressive)
+
+4. PWM
+   Range: 0-100%
+   Default: 30%
+   Use: Pulse width modulation depth
+   - 0%: No PWM
+   - 50%: Moderate PWM (musical)
+   - 100%: Maximum PWM (expressive)
+
+5. FILTER
+   Range: 0-100%
+   Default: 80%
+   Use: Filter cutoff frequency
+   - 0%: Closed (dark)
+   - 50%: Mid (balanced)
+   - 100%: Open (bright)
+
+6. RESONANCE
+   Range: 0-100%
+   Default: 30%
+   Use: Filter resonance amount
+   - 0%: No resonance
+   - 50%: Moderate resonance
+   - 100%: Maximum resonance (self-oscillation)
+
+7. DRIVE
+   Range: 0-100%
+   Default: 20%
+   Use: Overdrive/distortion amount
+   - 0%: Clean
+   - 50%: Moderate drive
+   - 100%: Maximum drive (distorted)
+
+8. ACCENT
+   Range: 0-100%
+   Default: 50%
+   Use: Velocity sensitivity
+   - 0%: No velocity response
+   - 50%: Moderate accent
+   - 100%: Maximum velocity sensitivity
+
+9. GLIDE
+   Range: 0-100%
+   Default: 0% (Off)
+   Use: Portamento time
+   - 0%: No glide (instant)
+   - 50%: Moderate glide
+   - 100%: Slow glide (smooth)
+
+10. PHASE SPREAD
+    Range: 0-100%
+    Default: 0% (Off)
+    Use: Phase randomization between voices
+    - 0%: No spread (synchronized)
+    - 50%: Moderate spread
+    - 100%: Maximum spread (random phases)

@@ -1,0 +1,106 @@
+================================================================================
+ADVSEQ - ADVANCED SEQUENCER
+================================================================================
+
+FEATURES:
+- Clock mode (internal/external)
+- Sequence length (1-128 steps)
+- Slice length (1-32 steps)
+- Smoothing control
+- Modulation depth
+- 8 operations
+- Shift (-64 to +64)
+- Rate division (0-4)
+- Swing control
+- Dry/wet mix
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls CLOCK MODE (0-1)
+  → Internal/External
+
+SHAPE KNOB (Knob B):
+  → Controls SEQ LENGTH (1-128)
+  → Sequence length
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. CLOCK MODE (TYPE knob)
+   Range: 0-1
+   Default: varies
+   Use: Clock source
+   - 0: Internal
+   - 1: External
+
+1. SEQ LENGTH (SHAPE knob)
+   Range: 1-128
+   Default: varies
+   Use: Sequence length
+   - 1: 1 step
+   - 64: 64 steps
+   - 128: 128 steps
+
+2. SLICE LENGTH
+   Range: 1-32
+   Default: varies
+   Use: Slice length
+   - 1: 1 step
+   - 16: 16 steps
+   - 32: 32 steps
+
+3. SMOOTHING
+   Range: 0-100%
+   Default: varies
+   Use: Smoothing amount
+   - 0%: No smoothing
+   - 50%: Moderate smoothing
+   - 100%: Maximum smoothing
+
+4. MOD DEPTH
+   Range: 0-100%
+   Default: varies
+   Use: Modulation depth
+   - 0%: No modulation
+   - 50%: Moderate modulation
+   - 100%: Maximum modulation
+
+5. OPERATION
+   Range: 0-7
+   Default: varies
+   Use: Operation mode
+   - 0-7: Different operations
+
+6. SHIFT
+   Range: -64 to +64
+   Default: varies
+   Use: Pitch shift
+   - -64: Down
+   - 0: No shift
+   - +64: Up
+
+7. RATE DIV
+   Range: 0-4
+   Default: varies
+   Use: Rate division
+   - 0-4: Different divisions
+
+8. SWING
+   Range: 0-100%
+   Default: varies
+   Use: Swing amount
+   - 0%: Straight timing
+   - 50%: Moderate swing
+   - 100%: Maximum swing
+
+9. MIX
+   Range: 0-100%
+   Default: varies
+   Use: Dry/wet balance
+   - 0%: Full dry
+   - 50%: Balanced
+   - 100%: Full wet

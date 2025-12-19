@@ -1,0 +1,122 @@
+═══════════════════════════════════════════════════════════════
+ORGAN2 - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+MODULE TYPE: osc (Oscillator)
+
+INSTALLATION:
+Upload via KORG KONTROL Editor and select in OSC menu on NTS-1 mkII
+
+═══════════════════════════════════════════════════════════════
+CONTROLS (NTS-1 mkII)
+═══════════════════════════════════════════════════════════════
+
+FRONT PANEL:
+- TYPE knob: Select patch/preset
+- A knob (SHAPE): HOLLOW (Hollowness)
+- B knob (ALT): PERCUSS (Percussion)
+
+PARAMETER MENU:
+Hold OSC button + turn TYPE knob to select parameter
+Adjust with A/B knobs
+
+PARAMETERS:
+0. HOLLOW - Hollowness (Range: 0-1023, Default: 512)
+1. PERCUSS - Percussion amount (Range: 0-1023, Default: 768)
+2. OCTVSUB - Octave Sub level (Range: 0-1023, Default: 614)
+3. CHORUS - Chorus amount (Range: 0-1023, Default: 307)
+4. RELEASE - Release time (Range: 0-1023, Default: 409)
+5. DIRT - Dirt/saturation (Range: 0-1023, Default: 256)
+6. FMRATIO - FM Ratio (Range: 0-1023, Default: 512)
+7. ATTACK - Attack time (Range: 0-1023, Default: 205)
+8. PRESET - Preset selection (Range: 0-7, Default: 0)
+9. VOICES - Voice count (Range: 0-3, Default: 3)
+
+═══════════════════════════════════════════════════════════════
+FEATURES
+═══════════════════════════════════════════════════════════════
+
+KORG M1 "ORGAN 2" - 2-OPERATOR FM SYNTHESIS
+
+The iconic "Robin S - Show Me Love" organ sound
+Hollow, woody bass with percussive attack
+
+SYNTHESIS ARCHITECTURE:
+
+2-OPERATOR FM:
+- Carrier: Sine wave (fundamental)
+- Modulator: Sine wave (2:1 ratio - 2nd harmonic)
+- Modulation Index: Controlled by percussive envelope
+
+THE "ORGAN 2" CHARACTER:
+1. HOLLOW TONE:
+   - Low modulation index creates hollow sine
+   - FM adds "woody" character
+   - Sub oscillator adds weight
+
+2. PERCUSSIVE ATTACK:
+   - Fast envelope on modulation index
+   - Creates "bonk" transient
+   - Quick decay to sustained tone
+
+3. ADDITIONAL FEATURES:
+   - Sub oscillator (square wave -1 octave)
+   - Chorus (stereo detune)
+   - Overdrive/saturation
+   - Multi-voice polyphony
+   - Velocity layers
+
+FM FORMULA:
+output = sin(2π * carrier_phase + mod_index * sin(2π * modulator_phase))
+
+MODULATION ENVELOPE:
+- Attack: 1-5ms (instant percussive click)
+- Decay: 50-500ms (controls "bonk" character)
+- Sustain: 10-40% (hollow organ sustain)
+- Release: 50-2000ms
+
+═══════════════════════════════════════════════════════════════
+PRESETS/PATCHES (if applicable)
+═══════════════════════════════════════════════════════════════
+
+PRESET parameter (0-7):
+0. ROBIN S - Classic "Show Me Love" sound
+1. DEEP HOUSE - More sub, less percussion
+2. GARAGE - Aggressive attack, chorus
+3. TRANCE - Long release, bright
+4. MINIMAL - Pure hollow tone
+5. TECHNO - Hard, dirty
+6. LOFI - Detuned, gritty
+7. EPIC - Maximum everything!
+
+VOICES parameter (0-3): Voice count for polyphony
+
+═══════════════════════════════════════════════════════════════
+EXAMPLE SETTINGS
+═══════════════════════════════════════════════════════════════
+
+ROBIN S CLASSIC:
+- HOLLOW: 50% (balanced)
+- PERCUSS: 75% (strong percussion)
+- OCTVSUB: 60% (prominent sub)
+- CHORUS: 30% (subtle chorus)
+- PRESET: 0 (Robin S)
+
+DEEP HOUSE:
+- HOLLOW: 40% (less hollow)
+- PERCUSS: 50% (moderate percussion)
+- OCTVSUB: 80% (heavy sub)
+- PRESET: 1 (Deep House)
+
+═══════════════════════════════════════════════════════════════
+TECHNICAL INFO
+═══════════════════════════════════════════════════════════════
+
+Platform: nts1mkii
+API: 2.0-0
+Module: osc
+Unit ID: 0x8U
+Version: 1.0-0
+
+═══════════════════════════════════════════════════════════════
+

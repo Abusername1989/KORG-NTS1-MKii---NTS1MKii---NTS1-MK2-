@@ -1,0 +1,113 @@
+================================================================================
+DIGITONE FM - 4-OPERATOR FM SYNTHESIZER
+================================================================================
+
+FEATURES:
+- 4-operator FM synthesis
+- 8 classic FM algorithms
+- Per-operator envelopes
+- Operator 1 feedback
+- Frequency ratios (0.5× to 16×)
+- LFO modulation
+- Resonant filter
+- Analog-style overdrive
+- Built-in sequencer
+- Step edit mode
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls ALGORITHM (0-7)
+  → Selects FM algorithm
+
+SHAPE KNOB (Knob B):
+  → Controls FM AMOUNT
+  → Higher = more FM
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. ALGORITHM (TYPE knob)
+   Range: 0-7
+   Default: varies
+   Use: FM algorithm selection
+   - 0: Serial cascade (brass/bell)
+   - 1: Parallel carriers (pad)
+   - 2: Dual stacks (organ)
+   - 3: Mixed (electric piano)
+   - 4: One modulator (bass)
+   - 5: Asymmetric (lead)
+   - 6: All parallel (additive)
+   - 7: Triple mod (complex)
+
+1. FM AMOUNT (SHAPE knob)
+   Range: 0-100%
+   Default: varies
+   Use: FM modulation amount
+   - 0%: No FM
+   - 50%: Moderate FM
+   - 100%: Maximum FM
+
+2. RATIO
+   Range: 0-100%
+   Default: varies
+   Use: Frequency ratio
+   - 0%: Low ratio
+   - 50%: Moderate ratio
+   - 100%: High ratio
+
+3. FEEDBACK
+   Range: 0-100%
+   Default: varies
+   Use: Operator 1 feedback
+   - 0%: No feedback
+   - 50%: Moderate feedback
+   - 100%: Maximum feedback
+
+4. ATTACK
+   Range: 0-100%
+   Default: varies
+   Use: Attack time
+   - 0%: Quick attack
+   - 50%: Moderate attack
+   - 100%: Slow attack
+
+5. DECAY
+   Range: 0-100%
+   Default: varies
+   Use: Decay time
+   - 0%: Quick decay
+   - 50%: Moderate decay
+   - 100%: Slow decay
+
+6. FILTER
+   Range: 0-100%
+   Default: varies
+   Use: Filter cutoff
+   - 0%: Closed
+   - 50%: Mid
+   - 100%: Open
+
+7. RESONANCE
+   Range: 0-100%
+   Default: varies
+   Use: Filter resonance
+   - 0%: No resonance
+   - 50%: Moderate resonance
+   - 100%: Maximum resonance
+
+8. PLAY
+   Range: 0-1 (OFF/ON)
+   Default: varies
+   Use: Play control
+   - 0: OFF
+   - 1: ON
+
+9. STEP EDIT
+   Range: 0-15
+   Default: varies
+   Use: Step edit mode
+   - 0-15: Different step positions

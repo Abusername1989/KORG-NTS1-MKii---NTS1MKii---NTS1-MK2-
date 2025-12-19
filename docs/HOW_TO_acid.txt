@@ -1,0 +1,73 @@
+═══════════════════════════════════════════════════════════════
+ACID - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+MODULE TYPE: osc (Oscillator)
+
+INSTALLATION:
+Upload via KORG KONTROL Editor and select in OSC menu on NTS-1 mkII
+
+═══════════════════════════════════════════════════════════════
+CONTROLS (NTS-1 mkII)
+═══════════════════════════════════════════════════════════════
+
+FRONT PANEL:
+- TYPE knob: Select patch/preset
+- A knob (SHAPE): CUTOFF (Filter Cutoff)
+- B knob (ALT): RESO (Resonance)
+
+PARAMETER MENU:
+Hold OSC button + turn TYPE knob to select parameter
+Adjust with A/B knobs
+
+PARAMETERS:
+0. CUTOFF - Filter Cutoff (Range: 0-1023, Default: 102)
+1. RESO - Resonance (Range: 0-1023, Default: 819)
+2. ENVMOD - Envelope Modulation (Range: 0-1023, Default: 768)
+3. DECAY - Decay Time (Range: 0-1023, Default: 205)
+4. ACCENT - Accent Amount (Range: 0-1023, Default: 614)
+5. WAVE - Waveform (Saw/Square blend) (Range: 0-1023, Default: 512)
+6. DETUNE - Detune (Range: 0-1023, Default: 307)
+7. DIST - Distortion (Range: 0-1023, Default: 409)
+8. MODE - Mode selection (Range: 0-3, Default: 0)
+9. SLIDE - Slide Time (Range: 0-3, Default: 1)
+
+═══════════════════════════════════════════════════════════════
+FEATURES
+═══════════════════════════════════════════════════════════════
+
+OSCILLATOR:
+- Sawtooth/Square waveform
+- Soft saturation (pre-filter)
+- Waveform crossfade (not instant switch)
+- Hard sync on phase reset
+
+FILTER:
+- 18dB/oct (3-pole) diode ladder filter
+- Self-oscillation at high resonance
+- BASS BOOST at low cutoff 
+- IN-FILTER overdrive (feedback path saturation)
+- Resonance compensation
+
+ENVELOPE:
+- Instant attack (<1ms)
+- Exponential decay
+- No sustain (always decaying)
+- ACCENT modulates:
+  * Filter cutoff (+30%)
+  * Envelope depth (+50%)
+  * Volume (+6dB)
+  * Decay time (+20%)
+
+SLIDE (PORTAMENTO):
+- S-curve slide (exponential approach)
+- Slide time depends on interval
+- Active only when legato
+
+DISTORTION:
+- Pre-filter: Soft VCO saturation
+- In-filter: Feedback path overdrive
+- Filter self-distortion at high resonance
+
+
+

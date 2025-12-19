@@ -1,0 +1,111 @@
+================================================================================
+ELECTRIKUT OSC 
+================================================================================
+
+FEATURES:
+- 3 ElectriKUT modes (VA / PCM / FX)
+- Digital grit (bit crushing + distortion)
+- Mid-focused body control
+- Transient snap shaper
+- Shape motion (stepping feel)
+- Voice stacking (density)
+
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls E-MODE (ElectriKUT mode)
+  → 0-33%: VA MODE (Classic saw/square)
+  → 34-66%: PCM MODE (Attacky, sampler-like)
+  → 67-100%: FX MODE (Metallic/formant)
+
+SHAPE KNOB (Knob B):
+  → Controls WAVE CHAR (Wave character)
+  → Higher = more metallic/FM-like
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. E-MODE (TYPE knob)
+   Range: 0-100%
+   Default: 33% (VA MODE)
+   Use: ElectriKUT mode selection
+   - 0-33%: VA MODE (Classic saw/square with digital edge)
+   - 34-66%: PCM MODE (Attacky, sampler-like stacks)
+   - 67-100%: FX MODE (Metallic/formant for techno bleeps)
+
+1. WAVE CHAR (SHAPE knob)
+   Range: 0-100%
+   Default: 50%
+   Use: Wave character
+   - 0%: Basic saw, punchy ElectriKUT basis
+   - 50%: Shaped, formant-like
+   - 100%: Metallic, synth-FX elektro sounds
+
+2. GRIT
+   Range: 0-100%
+   Default: 30%
+   Use: Digital edge/roughness
+   - 0%: Cleaner (but still digital)
+   - 50%: Moderate grit
+   - 100%: Raw, aliasing, perfect for techno
+
+3. BODY
+   Range: 0-100%
+   Default: 60%
+   Use: Mid-focus amount
+   - 0%: Thinner, more top-end
+   - 50%: Balanced
+   - 100%: Thick mid punch, "in your face"
+
+4. SNAP
+   Range: 0-100%
+   Default: 50%
+   Use: Transient sharpness
+   - 0%: Rounder starts
+   - 50%: Moderate snap
+   - 100%: Sharp percussive click, rhythmic
+
+5. MOTION
+   Range: 0-100%
+   Default: 20%
+   Use: Internal shape movement
+   - 0%: No motion
+   - 50%: Moderate stepping feel
+   - 100%: Strong robotic movement
+
+6. SPREAD
+   Range: 0-100%
+   Default: 30%
+   Use: Stereo width
+   - 0%: Mono/narrow
+   - 50%: Normal stereo
+   - 100%: Wide (but still compact ElectriKUT-style)
+
+7. DENSITY
+   Range: 0-100%
+   Default: 40%
+   Use: Voice/layer count
+   - 0%: Single voice, direct
+   - 50%: Moderate stacking
+   - 100%: Stacked, chord-ready
+
+8. COLOR
+   Range: 0-100%
+   Default: 50%
+   Use: Harmonic tilt
+   - 0%: Darker, more fundamental
+   - 50%: Balanced
+   - 100%: Brighter, more upper harmonics
+
+9. PUNCH
+   Range: 0-100%
+   Default: 40%
+   Use: Attack enhancement
+   - 0%: Normal envelope
+   - 50%: Moderate punch
+   - 100%: Extra click/punch for patterns
+

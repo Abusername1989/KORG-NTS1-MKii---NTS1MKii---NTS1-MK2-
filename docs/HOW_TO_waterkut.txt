@@ -1,0 +1,121 @@
+================================================================================
+WATERKUT - RAINDROP DELAY EFFECT V2
+================================================================================
+
+FEATURES:
+- 10 parallel delay lines (raindrop effect)
+- Tempo-synced delay times
+- Randomization/chaos control
+- Modulation (LFO movement)
+- Tone filter (dark to bright)
+- Stereo width control
+- Line count control (1-10 active delays)
+- Diffusion (smoothness)
+- Freeze mode (infinite hold)
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls TIME (delay length scale)
+  → Higher = longer delays
+
+SHAPE KNOB (Knob B):
+  → Controls DEPTH/FEEDBACK
+  → Higher = more feedback
+
+SHIFT + B (MIX):
+  → Controls DRY/WET MIX
+  → -100% = full dry, 0% = balanced, +100% = full wet
+
+================================================================================
+11 PARAMETERS
+================================================================================
+
+0. TIME (TYPE knob)
+   Range: 0-100%
+   Default: 80%
+   Use: Delay length scale
+   - 0%: Short delays (0.1s)
+   - 50%: Medium delays (1.5s)
+   - 100%: Long delays (3.0s)
+
+1. DEPTH/FEEDBACK (SHAPE knob)
+   Range: 0-100%
+   Default: 75%
+   Use: Feedback amount
+   - 0%: No repeats
+   - 50%: Moderate repeats
+   - 100%: Maximum feedback
+
+2. MIX (SHIFT + B)
+   Range: -100% to +100%
+   Default: 0% (Balanced)
+   Use: Dry/wet balance
+   - -100%: Full dry
+   - 0%: Balanced (50/50)
+   - +100%: Full wet
+
+3. CHAOS
+   Range: 0-100%
+   Default: 50%
+   Use: Randomization amount
+   - 0%: No chaos (deterministic)
+   - 50%: Moderate chaos
+   - 100%: Maximum chaos
+
+4. MOD INTENSITY
+   Range: 0-100%
+   Default: 30%
+   Use: Modulation depth
+   - 0%: No modulation
+   - 50%: Moderate modulation
+   - 100%: Maximum modulation
+
+5. MOD RATE
+   Range: 0-100%
+   Default: 10% (~1 Hz)
+   Use: Modulation speed
+   - 0%: Very slow (0.1 Hz)
+   - 50%: Moderate (5 Hz)
+   - 100%: Fast (10 Hz)
+
+6. TONE
+   Range: 0-100%
+   Default: 50%
+   Use: Tone filter
+   - 0%: Dark (low-pass)
+   - 50%: Neutral
+   - 100%: Bright (high-pass)
+
+7. STEREO WIDTH
+   Range: 0-100%
+   Default: 75% (150%)
+   Use: Stereo width (0-200%)
+   - 0%: Mono
+   - 50%: Normal stereo (100%)
+   - 100%: Ultra-wide (200%)
+
+8. LINES
+   Range: 1-10
+   Default: 10
+   Use: Number of active delay lines
+   - 1: Single delay
+   - 5: Moderate (5 lines)
+   - 10: Maximum (all lines)
+
+9. DIFFUSION
+   Range: 0-100%
+   Default: 40%
+   Use: Smoothness/diffusion
+   - 0%: No diffusion (sharp)
+   - 50%: Moderate diffusion
+   - 100%: Maximum diffusion (smooth)
+
+10. FREEZE
+    Range: 0-1 (OFF/ON)
+    Default: 0 (OFF)
+    Use: Infinite hold mode
+    - 0: OFF (normal delay)
+    - 1: ON (freeze buffer)

@@ -1,0 +1,108 @@
+================================================================================
+STEPSEQ - STEP SEQUENCER MODULATION
+================================================================================
+
+FEATURES:
+- Play control
+- 16-step selection
+- Pitch offset (-24 to +24 semitones)
+- Filter modulation
+- Gate length control
+- Sequence length (1-16 steps)
+- Swing amount
+- Ratchet (0-3)
+- 8 patterns
+- 4 directions
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls PLAY (0-1)
+  → ON/OFF
+
+SHAPE KNOB (Knob B):
+  → Controls STEP SELECT (0-15)
+  → Selects step
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. PLAY (TYPE knob)
+   Range: 0-1 (OFF/ON)
+   Default: varies
+   Use: Play control
+   - 0: OFF
+   - 1: ON
+
+1. STEP SELECT (SHAPE knob)
+   Range: 0-15
+   Default: varies
+   Use: Step selection
+   - 0-15: Different steps
+
+2. PITCH OFFSET
+   Range: -24 to +24 semitones
+   Default: varies
+   Use: Pitch offset per step
+   - -24: Two octaves down
+   - 0: No offset
+   - +24: Two octaves up
+
+3. FILTER MOD
+   Range: 0-100%
+   Default: varies
+   Use: Filter modulation amount
+   - 0%: No modulation
+   - 50%: Moderate modulation
+   - 100%: Maximum modulation
+
+4. GATE LENGTH
+   Range: 0-100%
+   Default: varies
+   Use: Gate time
+   - 0%: Very short
+   - 50%: Moderate gate
+   - 100%: Full gate
+
+5. SEQ LENGTH
+   Range: 1-16
+   Default: varies
+   Use: Sequence length
+   - 1: 1 step
+   - 8: 8 steps
+   - 16: 16 steps
+
+6. SWING AMOUNT
+   Range: 0-100%
+   Default: varies
+   Use: Swing/shuffle amount
+   - 0%: Straight timing
+   - 50%: Moderate swing
+   - 100%: Maximum swing
+
+7. RATCHET
+   Range: 0-3
+   Default: varies
+   Use: Ratchet amount
+   - 0: No ratchet
+   - 1: Single ratchet
+   - 2: Double ratchet
+   - 3: Triple ratchet
+
+8. PATTERN
+   Range: 0-7
+   Default: varies
+   Use: Pattern selection
+   - 0-7: Different patterns
+
+9. DIRECTION
+   Range: 0-3
+   Default: varies
+   Use: Playback direction
+   - 0: Forward
+   - 1: Reverse
+   - 2: Ping-pong
+   - 3: Random

@@ -1,0 +1,108 @@
+================================================================================
+GROOVEBOX - EDM GROOVEBOX OSCILLATOR
+================================================================================
+
+FEATURES:
+- 4 kick patterns
+- 8 chord progressions
+- Clap density control
+- Hi-hat density control
+- Kick volume
+- Chord volume
+- Percussion volume
+- Tempo control
+- 4 loop bar lengths
+- Humanization
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls KICK PATTERN (0-3)
+  → Selects kick pattern
+
+SHAPE KNOB (Knob B):
+  → Controls CHORD PROG (0-7)
+  → Selects chord progression
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. KICK PATTERN (TYPE knob)
+   Range: 0-3
+   Default: varies
+   Use: Kick pattern selection
+   - 0-3: Different patterns
+
+1. CHORD PROG (SHAPE knob)
+   Range: 0-7
+   Default: varies
+   Use: Chord progression selection
+   - 0-7: Different progressions
+
+2. CLAP DENS
+   Range: 0-100%
+   Default: varies
+   Use: Clap density
+   - 0%: No claps
+   - 50%: Moderate density
+   - 100%: Maximum density
+
+3. HAT DENS
+   Range: 0-100%
+   Default: varies
+   Use: Hi-hat density
+   - 0%: No hi-hats
+   - 50%: Moderate density
+   - 100%: Maximum density
+
+4. KICK VOL
+   Range: 0-100%
+   Default: varies
+   Use: Kick volume
+   - 0%: Silent
+   - 50%: Moderate volume
+   - 100%: Maximum volume
+
+5. CHORD VOL
+   Range: 0-100%
+   Default: varies
+   Use: Chord volume
+   - 0%: Silent
+   - 50%: Moderate volume
+   - 100%: Maximum volume
+
+6. PERC VOL
+   Range: 0-100%
+   Default: varies
+   Use: Percussion volume
+   - 0%: Silent
+   - 50%: Moderate volume
+   - 100%: Maximum volume
+
+7. TEMPO
+   Range: 0-100%
+   Default: varies
+   Use: Tempo control
+   - 0%: Slow
+   - 50%: Moderate tempo
+   - 100%: Fast
+
+8. LOOP BARS
+   Range: 0-3
+   Default: varies
+   Use: Loop length in bars
+   - 0: 1 bar
+   - 1: 2 bars
+   - 2: 4 bars
+   - 3: 8 bars
+
+9. HUMANIZE
+   Range: 0-100%
+   Default: varies
+   Use: Humanization amount
+   - 0%: No humanization
+   - 50%: Moderate humanization
+   - 100%: Maximum humanization

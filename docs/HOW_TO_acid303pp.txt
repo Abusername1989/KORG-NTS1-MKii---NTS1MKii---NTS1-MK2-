@@ -1,0 +1,111 @@
+================================================================================
+ACID 303++ - ULTIMATE ACID GROOVE MACHINE
+================================================================================
+
+FEATURES:
+- 4-pole Moog ladder filter
+- Pre/Post distortion with flavors
+- Dual filter modes (Serial/Parallel/BP/Notch)
+- Sub oscillator engine (-1/-2 octave)
+- Sample & Hold LFO
+- Envelope follower modulation
+- Filter keyboard tracking
+- Accent dynamics system
+- Morphing waveforms
+- Slide with auto-overlap detection
+- Built-in sequencer
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls CUTOFF (filter cutoff)
+  → Higher = brighter
+
+SHAPE KNOB (Knob B):
+  → Controls SLIDE (portamento)
+  → Higher = longer slide
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. CUTOFF (TYPE knob)
+   Range: 0-100%
+   Default: varies
+   Use: Filter cutoff frequency
+   - 0%: Closed (dark)
+   - 50%: Mid (balanced)
+   - 100%: Open (bright)
+
+1. SLIDE (SHAPE knob)
+   Range: 0-100%
+   Default: varies
+   Use: Portamento/slide time
+   - 0%: No slide
+   - 50%: Moderate slide
+   - 100%: Long slide
+
+2. RESONANCE
+   Range: 0-100%
+   Default: varies
+   Use: Filter resonance amount
+   - 0%: No resonance
+   - 50%: Moderate resonance
+   - 100%: Maximum resonance
+
+3. ENV AMOUNT
+   Range: 0-100%
+   Default: varies
+   Use: Envelope modulation amount
+   - 0%: No envelope modulation
+   - 50%: Moderate modulation
+   - 100%: Maximum modulation
+
+4. WAVEFORM
+   Range: 0-3
+   Default: varies
+   Use: Waveform selection
+   - 0-3: Different waveforms
+
+5. AMP DECAY
+   Range: 0-100%
+   Default: varies
+   Use: Amplitude envelope decay
+   - 0%: Quick decay
+   - 50%: Moderate decay
+   - 100%: Slow decay
+
+6. FLT DECAY
+   Range: 0-100%
+   Default: varies
+   Use: Filter envelope decay
+   - 0%: Quick decay
+   - 50%: Moderate decay
+   - 100%: Slow decay
+
+7. DISTORTION
+   Range: -100% to +100%
+   Default: varies
+   Use: Distortion amount
+   - -100%: Clean
+   - 0%: Neutral
+   - +100%: Maximum distortion
+
+8. FILTER MODE
+   Range: 0-3
+   Default: varies
+   Use: Filter mode selection
+   - 0: Serial
+   - 1: Parallel
+   - 2: Band-pass
+   - 3: Notch
+
+9. SUB MIX
+   Range: 0-100%
+   Default: varies
+   Use: Sub oscillator level
+   - 0%: No sub
+   - 50%: Balanced sub
+   - 100%: Strong sub

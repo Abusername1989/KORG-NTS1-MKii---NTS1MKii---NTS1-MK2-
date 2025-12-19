@@ -1,0 +1,89 @@
+================================================================================
+DISCO STRING FALL - ULTIMATE STRING SYNTHESIZER
+================================================================================
+
+FEATURES:
+- 7-voice SuperSaw unison (per note)
+- Exponential pitch fall envelope
+- Built-in 16-step sequencer with velocity
+- Extended arpeggiator (4 modes + latch)
+- Chord stacker (instant 7th chords)
+- 3 velocity layers with crossfade
+- Analog drift simulation
+- Sub oscillator
+- High-pass filter
+- Stereo chorus
+- Motion recording (4 lanes)
+- Portamento
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls FALL SPEED (pitch fall rate)
+  → Higher = faster fall
+
+SHAPE KNOB (Knob B):
+  → Controls FALL DEPTH (pitch fall amount)
+  → Higher = deeper fall
+
+================================================================================
+7 PARAMETERS
+================================================================================
+
+0. FALL SPEED (TYPE knob)
+   Range: 0-100%
+   Default: 60%
+   Use: Pitch fall envelope speed
+   - 0%: Slow fall
+   - 50%: Moderate speed
+   - 100%: Fast fall
+
+1. FALL DEPTH (SHAPE knob)
+   Range: 0-100%
+   Default: 30%
+   Use: Pitch fall amount
+   - 0%: No fall
+   - 50%: Moderate fall
+   - 100%: Maximum fall
+
+2. DETUNE
+   Range: 0-100%
+   Default: 70%
+   Use: Detuning spread between voices
+   - 0%: No detune (tight)
+   - 50%: Moderate detune
+   - 100%: Maximum detune (wide)
+
+3. ATTACK
+   Range: 0-100%
+   Default: 10%
+   Use: Attack time
+   - 0%: Quick attack
+   - 50%: Moderate attack
+   - 100%: Slow attack
+
+4. RELEASE
+   Range: 0-100%
+   Default: 40%
+   Use: Release time
+   - 0%: Quick release
+   - 50%: Moderate release
+   - 100%: Slow release
+
+5. CHORUS
+   Range: 0-100%
+   Default: 40%
+   Use: Chorus depth
+   - 0%: No chorus
+   - 50%: Moderate chorus
+   - 100%: Maximum chorus
+
+6. PORTAMENTO
+   Range: 0-100%
+   Default: 20%
+   Use: Portamento time
+   - 0%: No portamento
+   - 50%: Moderate portamento
+   - 100%: Slow portamento

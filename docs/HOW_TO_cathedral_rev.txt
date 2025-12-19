@@ -1,0 +1,101 @@
+═══════════════════════════════════════════════════════════════
+CATHEDRAL - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+MODULE TYPE: revfx (Reverb Effect)
+
+INSTALLATION:
+Upload via KORG KONTROL Editor and select in REV menu on NTS-1 mkII
+
+═══════════════════════════════════════════════════════════════
+CONTROLS (NTS-1 mkII)
+═══════════════════════════════════════════════════════════════
+
+FRONT PANEL:
+- TYPE knob: Select mode
+- A knob (SHAPE): TIME (Reverb Time)
+- B knob (ALT): DEPTH (Depth)
+
+PARAMETER MENU:
+Hold REV button + turn TYPE knob to select parameter
+Adjust with A/B knobs
+
+PARAMETERS:
+0. TIME - Reverb Time (Range: 0-1023, Default: 614)
+1. DEPTH - Depth (Range: 0-1023, Default: 768)
+2. MIX - Dry/Wet Mix (Range: -100-100, Default: 75)
+3. SIZE - Room Size (Range: 0-1023, Default: 512)
+4. DAMP - Damping (Range: 0-1023, Default: 409)
+5. DIFF - Diffusion (Range: 0-1023, Default: 307)
+6. EARLY - Early Reflections (Range: 0-1023, Default: 256)
+7. PREDLY - Pre-Delay Time (Range: 0-1023, Default: 358)
+8. REVS - Reverse Speed (Range: 0-1023, Default: 0)
+9. REVMIX - Reverse Mix (Range: 0-1023, Default: 102)
+10. MODE - Mode selection (Range: 0-3, Default: 0)
+
+═══════════════════════════════════════════════════════════════
+FEATURES
+═══════════════════════════════════════════════════════════════
+
+CATHEDRAL REVERB + REVERSE EFFECT
+
+Massive reverb met reverse buffer voor ultimate space
+
+ALGORITHM:
+- 8 parallel Schroeder allpass filters (diffusion)
+- 4 comb filters met cross-feedback (dense reverb tail)
+- Early reflections (8 taps)
+- Pre-delay buffer (max 500ms)
+- Reverse buffer (2 seconds)
+- High-frequency damping
+- Stereo width control
+- Multi-mode: Cathedral / Hall / Reverse / Shimmer
+
+REVERB ARCHITECTURE:
+- Schroeder Reverb algorithm (1962)
+- Freeverb-style diffusion
+- Jon Dattorro Reverb techniques (1997)
+- Reverse Reverb for special effects
+
+MODES:
+0. CATHEDRAL - Massive hall reverb
+1. HALL - Concert hall character
+2. REVERSE - Reverse reverb effect
+3. SHIMMER - Shimmer reverb with pitch shifting
+
+═══════════════════════════════════════════════════════════════
+PRESETS/PATCHES (if applicable)
+═══════════════════════════════════════════════════════════════
+
+MODE parameter (0-3): 4 reverb modes (Cathedral, Hall, Reverse, Shimmer)
+
+═══════════════════════════════════════════════════════════════
+EXAMPLE SETTINGS
+═══════════════════════════════════════════════════════════════
+
+MASSIVE CATHEDRAL:
+- TIME: 60% (long reverb)
+- DEPTH: 75% (deep)
+- SIZE: 80% (large room)
+- DAMP: 40% (moderate damping)
+- DIFF: 50% (good diffusion)
+- MODE: 0 (Cathedral)
+
+SHIMMER REVERB:
+- TIME: 80% (very long)
+- DEPTH: 90% (maximum depth)
+- REVMIX: 50% (reverse mix)
+- MODE: 3 (Shimmer)
+
+═══════════════════════════════════════════════════════════════
+TECHNICAL INFO
+═══════════════════════════════════════════════════════════════
+
+Platform: nts1mkii
+API: 2.0-0
+Module: revfx
+Unit ID: 0x4U
+Version: 1.0-0
+
+═══════════════════════════════════════════════════════════════
+

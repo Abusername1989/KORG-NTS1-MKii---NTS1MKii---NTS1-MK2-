@@ -1,0 +1,111 @@
+================================================================================
+KUTMIST - WARM HAZY REVERB
+================================================================================
+
+FEATURES:
+- 16 early reflection taps
+- Soft diffusion network (4 allpass)
+- 4 comb filters (smooth tail)
+- SIDE mode (stereo-aware processing)
+- High/Low cut filters
+- Pre-delay (0-500ms)
+- Room size control (small to cathedral)
+- Bass boost/cut
+- High damping (natural decay)
+- Optimized for SDRAM
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls PRE-DELAY
+  → Higher = longer pre-delay
+
+SHAPE KNOB (Knob B):
+  → Controls SIZE
+  → Higher = larger room
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. PRE-DELAY (TYPE knob)
+   Range: 0-100%
+   Default: varies
+   Use: Pre-delay time (0-500ms)
+   - 0%: No pre-delay
+   - 50%: Moderate pre-delay
+   - 100%: Long pre-delay
+
+1. SIZE (SHAPE knob)
+   Range: 0-100%
+   Default: varies
+   Use: Room size
+   - 0%: Small room
+   - 50%: Medium room
+   - 100%: Large cathedral
+
+2. DIFFUSION
+   Range: 0-100%
+   Default: varies
+   Use: Diffusion amount
+   - 0%: No diffusion
+   - 50%: Moderate diffusion
+   - 100%: Maximum diffusion
+
+3. DECAY
+   Range: 0-100%
+   Default: varies
+   Use: Reverb decay time
+   - 0%: Short decay
+   - 50%: Moderate decay
+   - 100%: Long decay
+
+4. DAMPING
+   Range: 0-100%
+   Default: varies
+   Use: High-frequency damping
+   - 0%: No damping
+   - 50%: Moderate damping
+   - 100%: Maximum damping
+
+5. LOW CUT
+   Range: 0-100%
+   Default: varies
+   Use: Low-frequency cut
+   - 0%: No cut
+   - 50%: Moderate cut
+   - 100%: Strong cut
+
+6. HIGH CUT
+   Range: 0-100%
+   Default: varies
+   Use: High-frequency cut
+   - 0%: No cut
+   - 50%: Moderate cut
+   - 100%: Strong cut
+
+7. BASS BOOST
+   Range: -100% to +100%
+   Default: varies
+   Use: Bass boost/cut
+   - -100%: Bass cut
+   - 0%: Neutral
+   - +100%: Bass boost
+
+8. SIDE MODE
+   Range: 0-100%
+   Default: varies
+   Use: Stereo-aware processing
+   - 0%: Off
+   - 50%: Moderate
+   - 100%: Maximum
+
+9. EARLY LEVEL
+   Range: 0-100%
+   Default: varies
+   Use: Early reflections level
+   - 0%: No early reflections
+   - 50%: Moderate level
+   - 100%: Maximum level

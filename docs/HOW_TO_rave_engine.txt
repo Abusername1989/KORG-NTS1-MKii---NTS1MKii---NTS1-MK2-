@@ -1,0 +1,129 @@
+═══════════════════════════════════════════════════════════════
+RAVE90s - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+MODULE TYPE: osc (Oscillator)
+
+INSTALLATION:
+Upload via KORG KONTROL Editor and select in OSC menu on NTS-1 mkII
+
+═══════════════════════════════════════════════════════════════
+CONTROLS (NTS-1 mkII)
+═══════════════════════════════════════════════════════════════
+
+FRONT PANEL:
+- TYPE knob: Select patch/preset
+- A knob (SHAPE): TIMBRE (Timbre/Intensity)
+- B knob (ALT): DECAY (Decay Time)
+
+PARAMETER MENU:
+Hold OSC button + turn TYPE knob to select parameter
+Adjust with A/B knobs
+
+PARAMETERS:
+0. TIMBRE - Timbre/Intensity per engine (Range: 0-1023, Default: 614)
+1. DECAY - Decay Time (Range: 0-1023, Default: 307)
+2. ATTACK - Attack Time (Range: 0-1023, Default: 512)
+3. RELEASE - Release Time (Range: 0-1023, Default: 768)
+4. BRIGHT - Brightness (Range: 0-1023, Default: 409)
+5. PUNCH - Punch amount (Range: 0-1023, Default: 666)
+6. DETUNE - Detune amount (Range: 0-1023, Default: 256)
+7. DRIVE - Drive/distortion (Range: 0-1023, Default: 358)
+8. ENGINE - Engine selection (Range: 0-3, Default: 0)
+9. PRESET - Preset selection (Range: 0-7, Default: 0)
+
+═══════════════════════════════════════════════════════════════
+FEATURES
+═══════════════════════════════════════════════════════════════
+
+90s RAVE MULTI-ENGINE
+
+The sound of early 90s Eurodance, Rave, and House!
+
+4 SYNTHESIS ENGINES:
+
+1. THE HOOVER (Roland Alpha Juno):
+   - PWM sawtooth with fast pitch LFO
+   - "Vacuum cleaner" sound
+   - Used in: 2 Unlimited, Human Resource, L.A. Style
+   - Dual pulse waves with different PWM
+   - Pitch envelope (rises then falls)
+
+2. FM DONK (Yamaha TX81Z):
+   - 2-operator FM with fast decay
+   - Metallic, percussive bass
+   - Used in: Quadrophonia, Praga Khan, Cubic 22
+   - High modulation index (8-20)
+   - Exponential decay envelope
+
+3. RAVE SAW (Supersaw technique):
+   - Multiple detuned saws
+   - Thick, aggressive sound
+   - Used in: Stabs, leads, pads
+   - 3 sawtooth oscillators
+   - Heavy detuning (10-50 cents)
+
+4. HOUSE ORGAN (Korg M1 "Organ 2"):
+   - Mixed waveforms with attack click
+   - House music signature sound
+   - Used in: Robin S, Crystal Waters, Ce Ce Peniston
+   - Sine + filtered square mix
+   - Sharp attack transient
+
+ADDITIONAL FEATURES:
+- Velocity sensitive
+- Band-limited (PolyBLEP)
+- Drive/distortion
+- Authentic 90s character
+- 8 classic presets
+
+═══════════════════════════════════════════════════════════════
+PRESETS/PATCHES (if applicable)
+═══════════════════════════════════════════════════════════════
+
+PRESET parameter (0-7):
+0. UNLIMIT - 2 Unlimited "No Limit" hoover
+1. QUADRO - Quadrophonia FM donk bass
+2. PRAGA - Praga Khan rave saw
+3. ROBIN - Robin S "Show Me Love" organ
+4. HUMAN - Human Resource hoover lead
+5. SNAP - Snap! "Rhythm Is A Dancer" bass
+6. URBAN - Urban Cookie Collective stab
+7. CUSTOM - User settings
+
+ENGINE parameter (0-3):
+0. HOOVER - PWM + pitch LFO
+1. FM DONK - 2-op FM
+2. RAVE SAW - 3× detuned saws
+3. ORGAN - M1 style
+
+═══════════════════════════════════════════════════════════════
+EXAMPLE SETTINGS
+═══════════════════════════════════════════════════════════════
+
+2 UNLIMITED HOOVER:
+- ENGINE: 0 (Hoover)
+- TIMBRE: 75% (PWM speed)
+- DECAY: 30% (pitch LFO decay)
+- DETUNE: 60% (oscillator spread)
+- PRESET: 0 (UNLIMIT)
+
+QUADROPHONIA DONK:
+- ENGINE: 1 (FM Donk)
+- TIMBRE: 85% (FM index)
+- DECAY: 15% (fast decay)
+- BRIGHT: 80% (modulator ratio)
+- PRESET: 1 (QUADRO)
+
+═══════════════════════════════════════════════════════════════
+TECHNICAL INFO
+═══════════════════════════════════════════════════════════════
+
+Platform: nts1mkii
+API: 2.0-0
+Module: osc
+Unit ID: 0xEU
+Version: 1.0-0
+
+═══════════════════════════════════════════════════════════════
+

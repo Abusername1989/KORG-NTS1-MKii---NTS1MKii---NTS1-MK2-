@@ -1,0 +1,128 @@
+================================================================================
+dub kut - ULTIMATE RHYTHMIC DELAY
+================================================================================
+
+FEATURES:
+- 6 delay modes (Groove, Dub, Burst, Reverse, Shimmer, Ping-Pong)
+- 16 tempo divisions (1/4 to 1/64, dotted, triplets)
+- Saturated feedback with color filter
+- Bit crusher for lo-fi repeats
+- Stereo spread with cross-feedback
+- Ducking (sidechain compression)
+- Pitch shift in feedback (shimmer)
+- Modulation (chorus-like movement)
+- Freeze mode (infinite hold)
+- Auto-pan delays
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls MODE (delay type)
+  → 0: Groove, 1: Dub, 2: Burst, 3: Reverse, 4: Shimmer, 5: Ping-Pong
+
+SHAPE KNOB (Knob B):
+  → Controls TIME (tempo division)
+  → 0-15: Various tempo divisions
+
+SHIFT + B (MIX):
+  → Controls DRY/WET MIX
+  → -100% = full dry, 0% = balanced, +100% = full wet
+
+================================================================================
+11 PARAMETERS
+================================================================================
+
+0. MODE (TYPE knob)
+   Range: 0-5
+   Default: 1 (Dub)
+   Use: Delay mode selection
+   - 0: Groove (short, tight, ducked)
+   - 1: Dub (long, dark, saturated)
+   - 2: Burst (very short, high feedback)
+   - 3: Reverse (backwards delay tails)
+   - 4: Shimmer (pitch-shifted feedback)
+   - 5: Ping-Pong (L/R bounce)
+
+1. TIME (SHAPE knob)
+   Range: 0-15
+   Default: 4 (1/8 dotted)
+   Use: Tempo division
+   - 0-2: 1/4 (straight, dotted, triplet)
+   - 3-5: 1/8 (straight, dotted, triplet)
+   - 6-8: 1/16 (straight, dotted, triplet)
+   - 9-11: 1/32 (straight, dotted, triplet)
+   - 12: 1/64 straight
+   - 13-15: Polyrhythmic (3/16, 5/16, 7/16)
+
+2. FEEDBACK
+   Range: 0-100%
+   Default: 60%
+   Use: Feedback amount
+   - 0%: No repeats
+   - 50%: Moderate repeats
+   - 100%: Maximum feedback
+
+3. MIX (SHIFT + B)
+   Range: -100% to +100%
+   Default: 0% (Balanced)
+   Use: Dry/wet balance
+   - -100%: Full dry
+   - 0%: Balanced (50/50)
+   - +100%: Full wet
+
+4. COLOR
+   Range: 0-100%
+   Default: 40%
+   Use: Tone filter
+   - 0%: Dark (low-pass)
+   - 50%: Neutral
+   - 100%: Bright (high-pass)
+
+5. GRIT
+   Range: 0-100%
+   Default: 30%
+   Use: Saturation/drive amount
+   - 0%: Clean
+   - 50%: Moderate saturation
+   - 100%: Maximum saturation
+
+6. STEREO
+   Range: 0-100%
+   Default: 50%
+   Use: Stereo spread
+   - 0%: Mono
+   - 50%: Normal stereo
+   - 100%: Ultra-wide
+
+7. DUCKING
+   Range: 0-100%
+   Default: 30%
+   Use: Sidechain compression amount
+   - 0%: No ducking
+   - 50%: Moderate ducking
+   - 100%: Maximum ducking
+
+8. MODULATION
+   Range: 0-100%
+   Default: 20%
+   Use: Modulation depth
+   - 0%: No modulation
+   - 50%: Moderate modulation
+   - 100%: Maximum modulation
+
+9. PITCH
+   Range: -12 to +12 semitones
+   Default: 0
+   Use: Pitch shift in feedback
+   - -12: One octave down
+   - 0: No pitch shift
+   - +12: One octave up
+
+10. FREEZE
+    Range: 0-1 (OFF/ON)
+    Default: 0 (OFF)
+    Use: Infinite hold mode
+    - 0: OFF (normal delay)
+    - 1: ON (freeze buffer)

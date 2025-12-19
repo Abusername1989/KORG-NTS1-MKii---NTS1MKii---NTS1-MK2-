@@ -1,0 +1,101 @@
+═══════════════════════════════════════════════════════════════
+M1PNOV2 - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+MODULE TYPE: osc (Oscillator)
+
+INSTALLATION:
+Upload via KORG KONTROL Editor and select in OSC menu on NTS-1 mkII
+
+═══════════════════════════════════════════════════════════════
+CONTROLS (NTS-1 mkII)
+═══════════════════════════════════════════════════════════════
+
+FRONT PANEL:
+- TYPE knob: Select patch/preset
+- A knob (SHAPE): BRIGHT (Brightness)
+- B knob (ALT): DECAY (Decay Time)
+
+PARAMETER MENU:
+Hold OSC button + turn TYPE knob to select parameter
+Adjust with A/B knobs
+
+PARAMETERS:
+0. BRIGHT - Brightness (Range: 0-1023, Default: 768)
+1. DECAY - Decay Time (Range: 0-1023, Default: 614)
+2. DETUNE - Detune amount (Range: 0-1023, Default: 358)
+3. FORMNT - Formant frequency (Range: 0-1023, Default: 512)
+4. ATTACK - Attack time (Range: 0-1023, Default: 666)
+5. CHORUS - Chorus amount (Range: 0-1023, Default: 307)
+6. VELO - Velocity sensitivity (Range: 0-1023, Default: 409)
+7. RELEASE - Release time (Range: 0-1023, Default: 256)
+8. PRESET - Preset selection (Range: 0-7, Default: 0)
+9. CHORD - Chord type (Range: 0-11, Default: 2)
+
+═══════════════════════════════════════════════════════════════
+FEATURES
+═══════════════════════════════════════════════════════════════
+
+KORG M1 PIANO V2 - WAVETABLE SYNTHESIS
+
+Multi-sample wavetable synthesis met M1-geïnspireerde timbres
+
+WAVETABLE SYSTEM:
+- 4 handmatig gecreëerde wavetables die M1 piano karakteristieken nabootsen
+- Multi-sample zones (LOW/MID/HIGH voor verschillende noten)
+- Velocity layers (SOFT/MEDIUM/HARD)
+- Formant resonance filters (voor "body" karakter)
+- Chorus effect (BBD-style zoals M1)
+- Attack transient generator
+- Stereo unison detuning
+
+M1 PIANO KARAKTERISTIEKEN:
+- Fel, metaalachtig attack
+- Korte, percussieve toon
+- Sterke 3e/5e harmonic
+- "Hollow" mid-range
+- Chorus depth
+
+WAVETABLE INDICES:
+- 0 = LOW (warm, full body)
+- 1 = MID (classic M1, bright attack)
+- 2 = HIGH (thin, glassy)
+- 3 = SOFT (mellow velocity layer)
+
+═══════════════════════════════════════════════════════════════
+PRESETS/PATCHES (if applicable)
+═══════════════════════════════════════════════════════════════
+
+PRESET parameter (0-7): Various M1 piano presets
+CHORD parameter (0-11): Chord types (Single, Octave, Fifth, Major, Minor, Maj7, Min7, Dom7, Dim7, etc.)
+
+═══════════════════════════════════════════════════════════════
+EXAMPLE SETTINGS
+═══════════════════════════════════════════════════════════════
+
+CLASSIC M1 PIANO:
+- BRIGHT: 75% (bright attack)
+- DECAY: 60% (moderate decay)
+- FORMNT: 50% (balanced formant)
+- CHORUS: 30% (subtle chorus)
+- PRESET: 0 (Classic M1)
+
+HOUSE PIANO STAB:
+- BRIGHT: 80% (very bright)
+- DECAY: 40% (short decay)
+- ATTACK: 10% (instant attack)
+- CHORD: 4 (Major chord)
+- PRESET: 1 (House)
+
+═══════════════════════════════════════════════════════════════
+TECHNICAL INFO
+═══════════════════════════════════════════════════════════════
+
+Platform: nts1mkii
+API: 2.0-0
+Module: osc
+Unit ID: 0x3U
+Version: 2.0-0
+
+═══════════════════════════════════════════════════════════════
+

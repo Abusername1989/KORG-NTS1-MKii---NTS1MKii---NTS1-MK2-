@@ -1,0 +1,114 @@
+================================================================================
+TAPE WOBBLE - VINTAGE TAPE MACHINE SIMULATOR
+================================================================================
+
+FEATURES:
+- Wow (slow pitch variation, 0.1-2 Hz)
+- Flutter (fast pitch variation, 5-20 Hz)
+- Saturation (tape saturation)
+- Noise (tape hiss)
+- Compression (tape compression)
+- Warble (pitch modulation)
+- Age (degradation)
+- 8 tape types
+- 4 playback speeds
+- Dry/wet mix
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls TAPE TYPE (0-7)
+  → Selects tape character
+
+SHAPE KNOB (Knob B):
+  → Controls WOW (wow amount)
+  → Higher = more wow
+
+SHIFT + B:
+  → Controls FLUTTER (flutter amount)
+  → Higher = more flutter
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. WOW (SHAPE knob)
+   Range: 0-100%
+   Default: 60%
+   Use: Slow pitch variation (0.1-2 Hz)
+   - 0%: No wow
+   - 50%: Moderate wow
+   - 100%: Maximum wow
+
+1. FLUTTER (SHIFT + B)
+   Range: 0-100%
+   Default: 50%
+   Use: Fast pitch variation (5-20 Hz)
+   - 0%: No flutter
+   - 50%: Moderate flutter
+   - 100%: Maximum flutter
+
+2. SATURATION
+   Range: 0-100%
+   Default: 75%
+   Use: Tape saturation amount
+   - 0%: Clean
+   - 50%: Moderate saturation
+   - 100%: Maximum saturation
+
+3. NOISE
+   Range: 0-100%
+   Default: 30%
+   Use: Tape hiss level
+   - 0%: No noise
+   - 50%: Moderate noise
+   - 100%: Maximum noise
+
+4. COMPRESS
+   Range: 0-100%
+   Default: 40%
+   Use: Tape compression amount
+   - 0%: No compression
+   - 50%: Moderate compression
+   - 100%: Maximum compression
+
+5. WARBLE
+   Range: 0-100%
+   Default: 25%
+   Use: Pitch modulation amount
+   - 0%: No warble
+   - 50%: Moderate warble
+   - 100%: Maximum warble
+
+6. AGE
+   Range: 0-100%
+   Default: 65%
+   Use: Tape degradation/age
+   - 0%: New tape
+   - 50%: Moderate age
+   - 100%: Old/worn tape
+
+7. MIX
+   Range: 0-100%
+   Default: 50%
+   Use: Dry/wet balance
+   - 0%: Full dry
+   - 50%: Balanced
+   - 100%: Full wet
+
+8. TAPE TYPE (TYPE knob)
+   Range: 0-7
+   Default: 2
+   Use: Tape character selection
+   - 0-7: Different tape types
+
+9. SPEED
+   Range: 0-3
+   Default: 1
+   Use: Playback speed
+   - 0: Slow
+   - 1: Normal
+   - 2: Fast
+   - 3: Very fast

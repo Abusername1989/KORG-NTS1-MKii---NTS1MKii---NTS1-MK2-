@@ -1,0 +1,112 @@
+================================================================================
+ETERNAL FLANGER - BARBER-POLE FLANGER EFFECT
+================================================================================
+
+FEATURES:
+- Barber-pole illusion (endless rising/falling sweep)
+- 3 direction modes (UP / DOWN / BOTH)
+- 4× cascaded delay stages
+- Smooth crossfading (no audible resets)
+- Chorus → Classic → Extreme modes
+- Stereo width control
+- Feedback + resonance
+- Tone shaping
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls DIRECTION (sweep direction)
+  → UP: Endless rising sweep
+  → DOWN: Endless falling sweep
+  → BOTH: Classic cycling up/down
+
+SHAPE KNOB (Knob B):
+  → Controls RATE (sweep speed)
+  → Higher = faster sweep
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. DIRECTION (TYPE knob)
+   Range: 0-2 (UP/DOWN/BOTH)
+   Default: 2 (BOTH)
+   Use: Sweep direction mode
+   - 0: UP (endless rising sweep)
+   - 1: DOWN (endless falling sweep)
+   - 2: BOTH (classic cycling)
+
+1. RATE (SHAPE knob)
+   Range: 0-100%
+   Default: 30%
+   Use: Sweep speed
+   - 0%: Very slow (0.05 Hz)
+   - 50%: Moderate (4 Hz)
+   - 100%: Fast (8 Hz)
+
+2. DEPTH
+   Range: 0-100%
+   Default: 50%
+   Use: Sweep intensity
+   - 0%: Subtle chorus-like
+   - 50%: Classic flanger
+   - 100%: Extreme psychedelic
+
+3. FEEDBACK
+   Range: 0-100%
+   Default: 40%
+   Use: Resonance character
+   - 0%: No feedback
+   - 50%: Moderate resonance
+   - 100%: Maximum feedback
+
+4. MIX
+   Range: 0-100%
+   Default: 50%
+   Use: Dry/wet balance
+   - 0%: Full dry
+   - 50%: Balanced
+   - 100%: Full wet
+
+5. STEREO
+   Range: 0-100%
+   Default: 60% (120% width)
+   Use: Stereo width (0-200%)
+   - 0%: Mono/narrow
+   - 50%: Normal stereo (100%)
+   - 100%: Ultra-wide (200%)
+
+6. TONE
+   Range: 0-100%
+   Default: 50%
+   Use: Brightness filter
+   - 0%: Dark (low-pass)
+   - 50%: Neutral
+   - 100%: Bright (high-pass)
+
+7. SMOOTH
+   Range: 0-100%
+   Default: 70%
+   Use: Crossfade smoothness
+   - 0%: Sharp transitions
+   - 50%: Moderate smoothing
+   - 100%: Maximum smoothness
+
+8. STAGES
+   Range: 2-4
+   Default: 4
+   Use: Number of delay stages
+   - 2: Minimal (simpler)
+   - 3: Moderate
+   - 4: Maximum (full barber-pole)
+
+9. RESONATE
+   Range: 0-100%
+   Default: 30%
+   Use: Peak emphasis
+   - 0%: No resonance boost
+   - 50%: Moderate peak
+   - 100%: Maximum resonance
+

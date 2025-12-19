@@ -1,0 +1,123 @@
+================================================================================
+SHIVIKUTFREQ - FREQUENCY SHIFTING DUB DELAY
+================================================================================
+
+FEATURES:
+- Real frequency shifter using Hilbert transform
+- Linear Hz shift (not pitch shift!)
+- Each repeat shifts in frequency
+- Spiraling, gliding, sci-fi echoes
+- Perfect for dub techno/house
+- Tempo sync support
+- Stereo width control
+- Lo-fi/dirt processing
+- Wander modulation
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls TIME (delay length)
+  → Higher = longer delays
+
+SHAPE KNOB (Knob B):
+  → Controls FEEDBACK (repeat amount)
+  → Higher = more repeats
+
+SHIFT + B (MIX):
+  → Controls DRY/WET MIX
+  → -100% = full dry, 0% = balanced, +100% = full wet
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. TIME (TYPE knob)
+   Range: 0-100%
+   Default: 50%
+   Use: Delay time in seconds (or tempo-synced)
+   - 0%: Short delay (0.01s)
+   - 50%: Medium delay (0.5s)
+   - 100%: Long delay (3.0s)
+   Note: When SYNC is enabled, this becomes tempo-synced
+
+1. FEEDBACK (SHAPE knob)
+   Range: 0-100%
+   Default: 60%
+   Use: Feedback amount (repeat intensity)
+   - 0%: No repeats (single echo)
+   - 50%: Moderate repeats
+   - 100%: Maximum feedback (long trails)
+
+2. MIX (SHIFT + B)
+   Range: -100% to +100%
+   Default: 0% (Balanced)
+   Use: Dry/wet balance
+   - -100%: Full dry (no effect)
+   - 0%: Balanced (50/50)
+   - +100%: Full wet (effect only)
+
+3. SHIFT HZ
+   Range: 0-100%
+   Default: 30%
+   Use: Frequency shift amount in Hz
+   - 0%: No shift (0 Hz)
+   - 30%: Moderate shift (~5 Hz)
+   - 100%: Maximum shift (~20 Hz)
+   Note: This is LINEAR Hz shift, not pitch shift!
+
+4. DIRECTION
+   Range: 0-2 (OFF/UP/DOWN)
+   Default: 1 (UP)
+   Use: Frequency shift direction
+   - 0: OFF (no frequency shift, normal delay)
+   - 1: UP (shift frequencies up)
+   - 2: DOWN (shift frequencies down)
+
+5. TONE
+   Range: 0-100%
+   Default: 40%
+   Use: Tone filter (dark to bright)
+   - 0%: Dark (low-pass, muffled)
+   - 50%: Neutral (balanced)
+   - 100%: Bright (high-pass, crisp)
+
+6. STEREO
+   Range: 0-100%
+   Default: 75%
+   Use: Stereo width control
+   - 0%: Mono
+   - 50%: Normal stereo
+   - 100%: Ultra-wide stereo spread
+
+7. WANDER
+   Range: 0-100%
+   Default: 25%
+   Use: Modulation/movement amount
+   - 0%: No modulation (static)
+   - 25%: Subtle movement
+   - 100%: Maximum modulation (chaotic)
+
+8. SYNC
+   Range: 0-8
+   Default: 3
+   Use: Tempo sync divisions
+   - 0: OFF (free time)
+   - 1: 1/16 note
+   - 2: 1/8 note
+   - 3: 3/16 note
+   - 4: 1/4 note
+   - 5: 3/8 note
+   - 6: 1/2 note
+   - 7: 3/4 note
+   - 8: 1/1 note (whole note)
+
+9. LOFI
+   Range: 0-100%
+   Default: 20%
+   Use: Lo-fi/dirt amount
+   - 0%: Clean (no degradation)
+   - 20%: Subtle lo-fi character
+   - 100%: Maximum dirt (crushed, degraded)
+

@@ -1,0 +1,107 @@
+================================================================================
+HYPERMAX - POLYPHONIC CHORD OSCILLATOR
+================================================================================
+
+FEATURES:
+- 12 chord types
+- Detune control
+- Sub oscillator mix
+- Brightness control
+- 1-4 voice count
+- Phase offset
+- PWM depth
+- Filter cutoff
+- Play control
+- Step edit mode
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls CHORD TYPE (0-11)
+  → Selects chord type
+
+SHAPE KNOB (Knob B):
+  → Controls DETUNE
+  → Higher = more detune
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. CHORD TYPE (TYPE knob)
+   Range: 0-11
+   Default: varies
+   Use: Chord type selection
+   - 0-11: Different chord types
+
+1. DETUNE (SHAPE knob)
+   Range: 0-100%
+   Default: varies
+   Use: Detuning spread
+   - 0%: No detune
+   - 50%: Moderate detune
+   - 100%: Maximum detune
+
+2. SUB MIX
+   Range: 0-100%
+   Default: varies
+   Use: Sub oscillator level
+   - 0%: No sub
+   - 50%: Balanced sub
+   - 100%: Strong sub
+
+3. BRIGHTNESS
+   Range: 0-100%
+   Default: varies
+   Use: Brightness control
+   - 0%: Dark
+   - 50%: Neutral
+   - 100%: Bright
+
+4. VOICE COUNT
+   Range: 1-4
+   Default: varies
+   Use: Number of voices
+   - 1: Single voice
+   - 2: Two voices
+   - 3: Three voices
+   - 4: Four voices
+
+5. PHASE OFFSET
+   Range: 0-100%
+   Default: varies
+   Use: Phase offset between voices
+   - 0%: No offset
+   - 50%: Moderate offset
+   - 100%: Maximum offset
+
+6. PWM DEPTH
+   Range: 0-100%
+   Default: varies
+   Use: Pulse width modulation depth
+   - 0%: No PWM
+   - 50%: Moderate PWM
+   - 100%: Maximum PWM
+
+7. FILTER CUTOFF
+   Range: 0-100%
+   Default: varies
+   Use: Filter cutoff frequency
+   - 0%: Closed
+   - 50%: Mid
+   - 100%: Open
+
+8. PLAY
+   Range: 0-1 (OFF/ON)
+   Default: varies
+   Use: Play control
+   - 0: OFF
+   - 1: ON
+
+9. STEP EDIT
+   Range: 0-15
+   Default: varies
+   Use: Step edit mode
+   - 0-15: Different step positions

@@ -1,0 +1,123 @@
+═══════════════════════════════════════════════════════════════
+ORCHHIT - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+MODULE TYPE: osc (Oscillator)
+
+INSTALLATION:
+Upload via KORG KONTROL Editor and select in OSC menu on NTS-1 mkII
+
+═══════════════════════════════════════════════════════════════
+CONTROLS (NTS-1 mkII)
+═══════════════════════════════════════════════════════════════
+
+FRONT PANEL:
+- TYPE knob: Select patch/preset
+- A knob (SHAPE): SIZE (Orchestra Size)
+- B knob (ALT): GRIT (Sample Grit)
+
+PARAMETER MENU:
+Hold OSC button + turn TYPE knob to select parameter
+Adjust with A/B knobs
+
+PARAMETERS:
+0. SIZE - Orchestra Size (Range: 0-1023, Default: 768)
+1. GRIT - Sample Grit (Range: 0-1023, Default: 614)
+2. IMPACT - Impact Level (Range: 0-1023, Default: 666)
+3. RELEASE - Release Time (Range: 0-1023, Default: 307)
+4. BRASS - Brass Level (Range: 0-1023, Default: 512)
+5. STRINGS - Strings Level (Range: 0-1023, Default: 819)
+6. TIMBRE - Timbre Shift (Range: 0-1023, Default: 409)
+7. VINTAGE - Vintage Amount (Range: 0-1023, Default: 256)
+8. PRESET - Preset selection (Range: 0-7, Default: 0)
+9. VOICES - Voice count (Range: 0-3, Default: 1)
+
+═══════════════════════════════════════════════════════════════
+FEATURES
+═══════════════════════════════════════════════════════════════
+
+90s ORCHESTRA HIT - SPECTRAL STACKING SYNTHESIS
+
+4-Layer Engine: Brass + Strings + Timpani + Grit
+Emulates Fairlight ORCH5 / Stravinsky Firebird sample
+
+ARCHITECTURE:
+
+LAYER 1 - LOW BRASS (Tuba/Trombone Body):
+- Sawtooth oscillator @ -1 octave
+- Lowpass filter (resonant, 200-800Hz)
+- Slow attack (10ms), medium decay (300ms)
+- Formant filter for brass character
+
+LAYER 2 - HIGH STRINGS (Violin/Viola Attack):
+- 5x Supersaw oscillators (detuned)
+- Root pitch + octave up mix
+- Fast attack (2ms), short decay (150ms)
+- High-pass filter for brightness
+- Stereo detune spread
+
+LAYER 3 - TIMPANI (Impact/Punch):
+- Sine wave with pitch envelope
+- Starts @ -2 octaves, drops further
+- 80ms pitch decay
+- Very short decay (50ms)
+- Lowpass filter (deep rumble)
+
+LAYER 4 - GRIT (Sample Character):
+- White noise burst
+- Band-pass filtered (2-8kHz for "bow scrape")
+- Ultra-short envelope (5-10ms)
+- High-pass filtered
+
+POST-PROCESSING:
+- Vintage sampler emulation (8/12/16-bit)
+- Sample rate reduction (48kHz → 22kHz simulation)
+- Analog saturation
+- Chorus effect (vintage ensemble)
+
+ADDITIONAL FEATURES:
+- 8 Presets (different orchestra sections)
+- 4-voice polyphony
+- Velocity layers
+- Aftertouch → brightness
+- Pitch bend
+- LFO vibrato
+- Stereo width control
+
+═══════════════════════════════════════════════════════════════
+PRESETS/PATCHES (if applicable)
+═══════════════════════════════════════════════════════════════
+
+PRESET parameter (0-7): 8 different orchestra section presets
+VOICES parameter (0-3): Voice count for polyphony
+
+═══════════════════════════════════════════════════════════════
+EXAMPLE SETTINGS
+═══════════════════════════════════════════════════════════════
+
+CLASSIC ORCHESTRA HIT:
+- SIZE: 75% (large orchestra)
+- GRIT: 60% (moderate sample grit)
+- IMPACT: 65% (strong impact)
+- BRASS: 50% (balanced)
+- STRINGS: 80% (prominent strings)
+- PRESET: 0 (Classic)
+
+FAIRLIGHT STYLE:
+- SIZE: 100% (maximum)
+- GRIT: 80% (heavy sample grit)
+- VINTAGE: 50% (vintage character)
+- PRESET: 1 (Fairlight)
+
+═══════════════════════════════════════════════════════════════
+TECHNICAL INFO
+═══════════════════════════════════════════════════════════════
+
+Platform: nts1mkii
+API: 2.0-0
+Module: osc
+Unit ID: 0x7U
+Version: 1.0-0
+
+═══════════════════════════════════════════════════════════════
+

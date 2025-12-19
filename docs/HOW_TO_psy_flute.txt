@@ -1,0 +1,111 @@
+================================================================================
+PSY FLUTE - PSYCHEDELIC SYNTH-FLUTE OSCILLATOR
+================================================================================
+
+FEATURES:
+- Flute-like core with dominant fundamental
+- Breathy attack with noise burst
+- Soft upper harmonics (not harsh)
+- Expressive vibrato and evolving timbre
+- Morphs from clean → house lead → psychedelic texture
+- 3 flute types (Soft Wood, Bright Synth, Overblown Psy)
+- Detune/spread for width
+- Attack shaping (quick tongue → slow swell)
+- Harmonic control (fundamental vs upper partials)
+- Space helper (pre-emphasis for reverb/delay)
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls FLUTE TYPE
+  → 0-33%: Soft Wood, 33-66%: Bright Synth, 66-100%: Overblown Psy
+
+SHAPE KNOB (Knob B):
+  → Controls BREATH
+  → Higher = more breath noise
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. FLUTE TYPE (TYPE knob)
+   Range: 0-100%
+   Default: 40% (Bright Synth)
+   Use: Flute character selection
+   - 0-33%: Soft Wood (mellow, low harmonics)
+   - 33-66%: Bright Synth (forward mids)
+   - 66-100%: Overblown Psy (strong upper harmonics)
+
+1. BREATH (SHAPE knob)
+   Range: 0-100%
+   Default: 30%
+   Use: Band-passed noise amount
+   - 0%: No breath
+   - 50%: Moderate breath
+   - 100%: Maximum breath
+
+2. BRIGHTNESS
+   Range: 0-100%
+   Default: 50%
+   Use: Internal tone filter
+   - 0%: Dark
+   - 50%: Neutral
+   - 100%: Bright
+
+3. VIB RATE
+   Range: 0-100%
+   Default: 40%
+   Use: Vibrato speed (0-10 Hz)
+   - 0%: Very slow (0.5 Hz)
+   - 50%: Moderate (5 Hz)
+   - 100%: Fast (10 Hz)
+
+4. VIB DEPTH
+   Range: 0-100%
+   Default: 30%
+   Use: Vibrato amount
+   - 0%: No vibrato
+   - 50%: Moderate vibrato
+   - 100%: Maximum vibrato
+
+5. MOTION
+   Range: 0-100%
+   Default: 20%
+   Use: Evolving timbre (brightness + breath)
+   - 0%: No motion
+   - 50%: Moderate motion
+   - 100%: Maximum motion
+
+6. SPREAD
+   Range: 0-100%
+   Default: 30%
+   Use: Detune/phase for width
+   - 0%: No spread
+   - 50%: Moderate spread
+   - 100%: Maximum spread
+
+7. ATTACK
+   Range: 0-100%
+   Default: 50%
+   Use: Attack shape
+   - 0%: Quick tongue
+   - 50%: Moderate attack
+   - 100%: Slow swell
+
+8. HARM TILT
+   Range: 0-100%
+   Default: 50%
+   Use: Fundamental vs upper partials
+   - 0%: More fundamental
+   - 50%: Balanced
+   - 100%: More harmonics
+
+9. SPACE
+   Range: 0-100%
+   Default: 50%
+   Use: Pre-emphasis for reverb/delay
+   - 0%: Dry (upfront)
+   - 50%: Moderate
+   - 100%: Optimized for deep FX

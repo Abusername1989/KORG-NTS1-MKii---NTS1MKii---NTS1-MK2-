@@ -1,0 +1,115 @@
+═══════════════════════════════════════════════════════════════
+PANTREM - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+MODULE TYPE: modfx (Modulation Effect)
+
+INSTALLATION:
+Upload via KORG KONTROL Editor and select in MOD menu on NTS-1 mkII
+
+═══════════════════════════════════════════════════════════════
+CONTROLS (NTS-1 mkII)
+═══════════════════════════════════════════════════════════════
+
+FRONT PANEL:
+- TYPE knob: Select mode
+- A knob (SHAPE): RATE (LFO Rate)
+- B knob (ALT): DEPTH (Depth)
+
+PARAMETER MENU:
+Hold MOD button + turn TYPE knob to select parameter
+Adjust with A/B knobs
+
+PARAMETERS:
+0. RATE - LFO Rate (Range: 0-1023, Default: 614)
+1. DEPTH - Depth (Range: 0-1023, Default: 768)
+2. WIDTH - Stereo Width (Range: 0-1023, Default: 512)
+3. PHASE - Phase Offset (Range: 0-1023, Default: 307)
+4. TREMOLO - Tremolo Amount (Range: 0-1023, Default: 0)
+5. PAN - Pan Amount (Range: 0-1023, Default: 819)
+6. WAVE - LFO Waveform (Range: 0-7, Default: 0)
+7. SYNC - Tempo Sync (Range: 0-1, Default: 1)
+8. DIVISION - Tempo Division (Range: 0-7, Default: 3)
+9. MODE - Mode selection (Range: 0-3, Default: 0)
+
+═══════════════════════════════════════════════════════════════
+FEATURES
+═══════════════════════════════════════════════════════════════
+
+AUTO-PAN & TREMOLO - Advanced stereo modulation
+
+FEATURES:
+- Auto-pan: LFO-controlled stereo movement
+- Tremolo: Amplitude modulation
+- Stereo width control
+- 8 LFO waveforms (sine, triangle, square, saw, random, etc.)
+- Tempo sync with divisions
+- Phase offset between L/R channels
+- 4 modes: Pan only, Trem only, Pan+Trem, Crossfade
+
+LFO WAVEFORMS:
+0. SINE - Smooth circular motion
+1. TRIANGLE - Linear sweep
+2. SQUARE - Hard gate
+3. SAW UP - Rising sweep
+4. SAW DOWN - Falling sweep
+5. RANDOM - Sample & hold
+6. SMOOTH RANDOM - Interpolated random
+7. CUSTOM - User-definable shape
+
+MODES:
+0. PAN ONLY - Pure stereo panning
+1. TREM ONLY - Pure amplitude modulation
+2. PAN + TREM - Both simultaneously
+3. CROSSFADE - Pan morphs to trem
+
+TEMPO DIVISIONS:
+0. 1/1 - Whole note
+1. 1/2 - Half note
+2. 1/4 - Quarter note
+3. 1/8 - Eighth note
+4. 1/16 - Sixteenth note
+5. 1/32 - Thirty-second note
+6. 1/64 - Sixty-fourth note
+7. 1/128 - One-hundred-twenty-eighth note
+
+═══════════════════════════════════════════════════════════════
+PRESETS/PATCHES (if applicable)
+═══════════════════════════════════════════════════════════════
+
+MODE parameter (0-3): 4 operational modes (Pan Only, Trem Only, Pan+Trem, Crossfade)
+WAVE parameter (0-7): 8 LFO waveforms
+SYNC parameter (0-1): Tempo sync on/off
+DIVISION parameter (0-7): Tempo division
+
+═══════════════════════════════════════════════════════════════
+EXAMPLE SETTINGS
+═══════════════════════════════════════════════════════════════
+
+CLASSIC AUTO-PAN:
+- RATE: 60% (moderate speed)
+- DEPTH: 75% (strong pan)
+- WAVE: 0 (Sine)
+- SYNC: 1 (Tempo sync)
+- DIVISION: 3 (1/8 note)
+- MODE: 0 (Pan Only)
+
+TREMOLO EFFECT:
+- RATE: 50% (slow tremolo)
+- DEPTH: 80% (strong depth)
+- TREMOLO: 70% (tremolo amount)
+- WAVE: 0 (Sine)
+- MODE: 1 (Trem Only)
+
+═══════════════════════════════════════════════════════════════
+TECHNICAL INFO
+═══════════════════════════════════════════════════════════════
+
+Platform: nts1mkii
+API: 2.0-0
+Module: modfx
+Unit ID: 0x2U
+Version: 1.0-0
+
+═══════════════════════════════════════════════════════════════
+

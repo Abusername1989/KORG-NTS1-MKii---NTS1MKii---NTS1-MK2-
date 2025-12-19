@@ -1,0 +1,105 @@
+================================================================================
+KLAPPERKUT V2 - MULTI-FX MODULATION UNIT
+================================================================================
+
+FEATURES:
+- 8 modulation modes
+- Gain control
+- Depth control
+- Feedback control
+- Dry/wet mix
+- 6 sync modes
+- 4 shape types
+- Stereo width
+- Color (tone filter)
+- Ducking (sidechain)
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls MODE (0-7)
+  → Selects modulation mode
+
+SHAPE KNOB (Knob B):
+  → Controls GAIN
+  → Higher = more gain
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. MODE (TYPE knob)
+   Range: 0-7
+   Default: 0
+   Use: Modulation mode selection
+   - 0-7: Different modes
+
+1. GAIN (SHAPE knob)
+   Range: 0-100%
+   Default: varies
+   Use: Gain amount
+   - 0%: No gain
+   - 50%: Moderate gain
+   - 100%: Maximum gain
+
+2. DEPTH
+   Range: 0-100%
+   Default: varies
+   Use: Modulation depth
+   - 0%: No depth
+   - 50%: Moderate depth
+   - 100%: Maximum depth
+
+3. FEEDBACK
+   Range: 0-100%
+   Default: varies
+   Use: Feedback amount
+   - 0%: No feedback
+   - 50%: Moderate feedback
+   - 100%: Maximum feedback
+
+4. MIX
+   Range: 0-100%
+   Default: varies
+   Use: Dry/wet balance
+   - 0%: Full dry
+   - 50%: Balanced
+   - 100%: Full wet
+
+5. SYNC
+   Range: 0-5
+   Default: varies
+   Use: Tempo sync mode
+   - 0-5: Different sync modes
+
+6. SHAPE
+   Range: 0-3
+   Default: varies
+   Use: Shape type
+   - 0-3: Different shapes
+
+7. STEREO
+   Range: 0-100%
+   Default: varies
+   Use: Stereo width
+   - 0%: Mono
+   - 50%: Normal stereo
+   - 100%: Ultra-wide
+
+8. COLOR
+   Range: 0-100%
+   Default: varies
+   Use: Tone filter
+   - 0%: Dark
+   - 50%: Neutral
+   - 100%: Bright
+
+9. DUCK
+   Range: 0-100%
+   Default: varies
+   Use: Ducking amount
+   - 0%: No ducking
+   - 50%: Moderate ducking
+   - 100%: Maximum ducking

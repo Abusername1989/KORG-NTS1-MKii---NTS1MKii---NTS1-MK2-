@@ -1,0 +1,79 @@
+═══════════════════════════════════════════════════════════════
+GABBER - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+MODULE TYPE: osc (Oscillator)
+
+INSTALLATION:
+Upload via KORG KONTROL Editor and select in OSC menu on NTS-1 mkII
+
+═══════════════════════════════════════════════════════════════
+CONTROLS (NTS-1 mkII)
+═══════════════════════════════════════════════════════════════
+
+FRONT PANEL:
+- TYPE knob: Select patch/preset
+- A knob (SHAPE): DIST (Distortion)
+- B knob (ALT): MODE (Mode selection)
+
+PARAMETER MENU:
+Hold OSC button + turn TYPE knob to select parameter
+Adjust with A/B knobs
+
+PARAMETERS:
+0. DIST - Distortion amount (Range: 0-1023, Default: 512)
+1. MODE - Mode selection (Range: 0-7, Default: 0)
+2. PENV - Pitch Envelope amount (Range: 0-1023, Default: 768)
+3. SUB - Sub Level (Range: 0-1023, Default: 512)
+4. DETUNE - Detune amount (Range: 0-1023, Default: 512)
+5. CUTOFF - Filter Cutoff (Range: 0-1023, Default: 768)
+
+═══════════════════════════════════════════════════════════════
+FEATURES
+═══════════════════════════════════════════════════════════════
+
+GABBER BASS - Turn Up The Bass inspired hardcore oscillator
+
+Hardcore/gabber bass synthesizer with:
+- Multiple synthesis modes (8 modes)
+- Distortion processing
+- Pitch envelope modulation
+- Sub oscillator
+- Detuned oscillators
+- Low-pass filter
+- PolyBLEP anti-aliasing
+
+═══════════════════════════════════════════════════════════════
+PRESETS/PATCHES (if applicable)
+═══════════════════════════════════════════════════════════════
+
+MODE parameter (0-7): Various synthesis modes
+
+═══════════════════════════════════════════════════════════════
+EXAMPLE SETTINGS
+═══════════════════════════════════════════════════════════════
+
+HARDCORE BASS:
+- DIST: 80% (heavy distortion)
+- PENV: 75% (strong pitch envelope)
+- SUB: 60% (prominent sub)
+- CUTOFF: 70% (moderate filter)
+
+PUNCHY STAB:
+- DIST: 50% (moderate distortion)
+- PENV: 90% (fast pitch envelope)
+- DETUNE: 40% (slight detune)
+- CUTOFF: 80% (bright filter)
+
+═══════════════════════════════════════════════════════════════
+TECHNICAL INFO
+═══════════════════════════════════════════════════════════════
+
+Platform: nts1mkii
+API: 1.1-0
+Module: osc
+Unit ID: 0x1U
+Version: 1.0-0
+
+═══════════════════════════════════════════════════════════════
+

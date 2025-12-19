@@ -1,0 +1,118 @@
+═══════════════════════════════════════════════════════════════
+M1PIANOPM - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+MODULE TYPE: osc (Oscillator)
+
+INSTALLATION:
+Upload via KORG KONTROL Editor and select in OSC menu on NTS-1 mkII
+
+═══════════════════════════════════════════════════════════════
+CONTROLS (NTS-1 mkII)
+═══════════════════════════════════════════════════════════════
+
+FRONT PANEL:
+- TYPE knob: Select patch/preset
+- A knob (SHAPE): HARDNESS (Hardness)
+- B knob (ALT): DECAY (Decay Time)
+
+PARAMETER MENU:
+Hold OSC button + turn TYPE knob to select parameter
+Adjust with A/B knobs
+
+PARAMETERS:
+0. HARDNESS - Hardness (Range: 0-1023, Default: 768)
+1. DECAY - Decay Time (Range: 0-1023, Default: 614)
+2. STIFF - Stiffness (Range: 0-1023, Default: 819)
+3. DETUNE - Detune amount (Range: 0-1023, Default: 307)
+4. BRIGHT - Brightness (Range: 0-1023, Default: 512)
+5. BODY - Body resonance (Range: 0-1023, Default: 409)
+6. CHORUS - Chorus amount (Range: 0-1023, Default: 256)
+7. RELEASE - Release time (Range: 0-1023, Default: 205)
+8. PRESET - Preset selection (Range: 0-7, Default: 0)
+9. UNISON - Unison mode (Range: 0-2, Default: 1)
+
+═══════════════════════════════════════════════════════════════
+FEATURES
+═══════════════════════════════════════════════════════════════
+
+KORG M1 PIANO - HYBRID PHYSICAL MODELING
+
+2-Op FM Exciter + Karplus-Strong + Stiffness Allpass
+The authentic M1 metallic "clank" with wire inharmonicity
+
+ARCHITECTURE:
+
+1. EXCITER (2-OP FM BURST):
+   - Carrier: Sine wave
+   - Modulator: Sine wave @ 4.2:1 ratio (non-integer!)
+   - High FM index (6-12) creates metallic "clang"
+   - Ultra-fast envelope (5-20ms decay)
+   - Creates iconic M1 attack transient
+
+2. RESONATOR (EXTENDED KARPLUS-STRONG):
+   - Delay line (string length)
+   - Stiffness allpass filter (inharmonicity!)
+   - Lowpass filter (damping)
+   - Feedback control (decay time)
+   
+   STIFFNESS ALLPASS:
+   - Introduces frequency-dependent delay
+   - High frequencies travel faster (dispersion)
+   - Creates "stiff wire" character
+
+3. POST-PROCESSING:
+   - Comb filter @ 2-3kHz (M1 DAC character)
+   - Peaking EQ (body resonance)
+   - Stereo chorus
+   - Unison detune
+
+PHYSICAL MODELING THEORY:
+Piano string physics with inharmonicity factor B
+Dispersion relation creates stretched partials (not perfect harmonics)
+
+═══════════════════════════════════════════════════════════════
+PRESETS/PATCHES (if applicable)
+═══════════════════════════════════════════════════════════════
+
+PRESET parameter (0-7):
+0. M1 PIANO - Classic bright M1
+1. HOUSE - 90s house piano stab
+2. RHODES - Mellow, less metallic
+3. TRANCE - Super bright, long decay
+4. BELL - Maximum inharmonicity
+5. WURLI - Wurlitzer character
+6. DETUNED - Wide stereo spread
+7. LOFI - Dark, damped
+
+UNISON parameter (0-2): Unison mode selection
+
+═══════════════════════════════════════════════════════════════
+EXAMPLE SETTINGS
+═══════════════════════════════════════════════════════════════
+
+CLASSIC M1 PIANO:
+- HARDNESS: 75% (metallic attack)
+- DECAY: 60% (moderate decay)
+- STIFF: 80% (strong inharmonicity)
+- BRIGHT: 50% (balanced)
+- PRESET: 0 (M1 Piano)
+
+HOUSE PIANO:
+- HARDNESS: 90% (very metallic)
+- DECAY: 30% (short decay)
+- STIFF: 70% (moderate stiffness)
+- PRESET: 1 (House)
+
+═══════════════════════════════════════════════════════════════
+TECHNICAL INFO
+═══════════════════════════════════════════════════════════════
+
+Platform: nts1mkii
+API: 2.0-0
+Module: osc
+Unit ID: 0x9U
+Version: 1.0-0
+
+═══════════════════════════════════════════════════════════════
+

@@ -1,0 +1,115 @@
+================================================================================
+EARLY BEAST - ULTIMATE EARLY REFLECTIONS REVERB
+================================================================================
+
+FEATURES:
+- 16 randomized early reflection taps (30-180ms)
+- Relab LX480-style ambience algorithm
+- Modulation: Spin (rate) & Wander (depth)
+- Low-frequency multiplier (bass width)
+- Size control (room to hall)
+- Density control (tap spacing)
+- Subtle late diffusion (optional tail)
+- Stereo width control
+- Pre-delay (localization)
+- Brightness control (tone shaping)
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A):
+  → Controls PREDELAY (pre-delay time)
+  → Higher = longer pre-delay
+
+SHAPE KNOB (Knob B):
+  → Controls SIZE (room size)
+  → Higher = larger space
+
+SHIFT + B (DENSITY):
+  → Controls DENSITY (tap spacing)
+  → Higher = denser reflections
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. PREDELAY (TYPE knob)
+   Range: 0-100%
+   Default: 10%
+   Use: Pre-delay time
+   - 0%: No pre-delay
+   - 50%: Moderate pre-delay
+   - 100%: Long pre-delay
+
+1. SIZE (SHAPE knob)
+   Range: 0-100%
+   Default: 50%
+   Use: Room size
+   - 0%: Small room
+   - 50%: Medium room
+   - 100%: Large hall
+
+2. DENSITY (SHIFT + B)
+   Range: 0-100%
+   Default: 60%
+   Use: Tap spacing density
+   - 0%: Sparse (few taps)
+   - 50%: Moderate density
+   - 100%: Dense (many taps)
+
+3. SPIN (RATE)
+   Range: 0-100%
+   Default: 30%
+   Use: Modulation rate
+   - 0%: No modulation
+   - 50%: Moderate rate
+   - 100%: Fast modulation
+
+4. WANDER (DEPTH)
+   Range: 0-100%
+   Default: 40%
+   Use: Modulation depth
+   - 0%: No wander
+   - 50%: Moderate wander
+   - 100%: Maximum wander
+
+5. LOW MULT
+   Range: 0-100%
+   Default: 60%
+   Use: Low-frequency multiplier
+   - 0%: No low boost
+   - 50%: Moderate boost
+   - 100%: Maximum low boost
+
+6. DIFFUSION
+   Range: 0-100%
+   Default: 20%
+   Use: Late tail diffusion
+   - 0%: No diffusion
+   - 50%: Moderate diffusion
+   - 100%: Maximum diffusion
+
+7. WIDTH
+   Range: 0-100%
+   Default: 75%
+   Use: Stereo width
+   - 0%: Mono
+   - 50%: Normal stereo
+   - 100%: Ultra-wide
+
+8. BRIGHT
+   Range: 0-100%
+   Default: 60%
+   Use: Brightness control
+   - 0%: Dark
+   - 50%: Neutral
+   - 100%: Bright
+
+9. LATE MIX
+   Range: 0-100%
+   Default: 30%
+   Use: Late tail mix
+   - 0%: No late tail
+   - 50%: Moderate tail
+   - 100%: Strong tail

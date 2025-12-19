@@ -1,0 +1,114 @@
+================================================================================
+KUTCHORUS - MULTI-MODE CHORUS EFFECT
+================================================================================
+
+FEATURES:
+- 4 chorus types (Soft, Classic, Bright, Wide)
+- 2-4 voice chorus engine
+- LFO modulation (rate + depth)
+- Stereo width control
+- Tone filter (dark to bright)
+- Motion/randomization
+- Bass cut (pump-safe)
+- Feedback control
+
+================================================================================
+HARDWARE CONTROLS
+================================================================================
+
+TYPE KNOB (Knob A, with MOD held):
+  → Controls TYPE (chorus mode)
+  → 0-25%: Soft, 25-50%: Classic, 50-75%: Bright, 75-100%: Wide
+
+SHAPE KNOB (Knob B):
+  → Controls RATE (LFO speed)
+  → Higher = faster modulation
+
+SHIFT + B (MIX):
+  → Controls DRY/WET MIX
+  → 0% = full dry, 50% = balanced, 100% = full wet
+
+================================================================================
+10 PARAMETERS
+================================================================================
+
+0. TYPE
+   Range: 0-100%
+   Default: 25% (Classic)
+   Use: Chorus type selection
+   - 0-25%: Soft (gentle, warm)
+   - 25-50%: Classic (standard chorus)
+   - 50-75%: Bright (forward, cutting)
+   - 75-100%: Wide (stereo spread)
+
+1. RATE (SHAPE knob)
+   Range: 0-100%
+   Default: 30%
+   Use: LFO modulation speed
+   - 0%: Very slow (0.1 Hz)
+   - 50%: Moderate (2-3 Hz)
+   - 100%: Fast (5-10 Hz)
+
+2. DEPTH
+   Range: 0-100%
+   Default: 50%
+   Use: Modulation depth
+   - 0%: No modulation
+   - 50%: Moderate depth
+   - 100%: Maximum depth
+
+3. MIX (SHIFT + B)
+   Range: 0-100%
+   Default: 50%
+   Use: Dry/wet balance
+   - 0%: Full dry
+   - 50%: Balanced (50/50)
+   - 100%: Full wet
+
+4. WIDTH
+   Range: 0-100%
+   Default: 50%
+   Use: Stereo width
+   - 0%: Mono
+   - 50%: Normal stereo
+   - 100%: Ultra-wide
+
+5. TONE
+   Range: 0-100%
+   Default: 50%
+   Use: Tone filter
+   - 0%: Dark (low-pass)
+   - 50%: Neutral
+   - 100%: Bright (high-pass)
+
+6. MOTION
+   Range: 0-100%
+   Default: 20%
+   Use: Randomization amount
+   - 0%: No motion (static)
+   - 50%: Moderate motion
+   - 100%: Maximum motion
+
+7. BASS CUT
+   Range: 0-100%
+   Default: 30%
+   Use: High-pass filter (pump-safe)
+   - 0%: No cut
+   - 50%: Moderate cut
+   - 100%: Strong cut
+
+8. VOICES
+   Range: 2-4
+   Default: 3
+   Use: Number of chorus voices
+   - 2: Dual chorus
+   - 3: Triple chorus
+   - 4: Quad chorus
+
+9. FEEDBACK
+   Range: 0-100%
+   Default: 10%
+   Use: Feedback amount
+   - 0%: No feedback
+   - 50%: Moderate feedback
+   - 100%: Maximum feedback
