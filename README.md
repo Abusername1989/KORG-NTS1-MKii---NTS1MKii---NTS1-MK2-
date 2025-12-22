@@ -1,4 +1,4 @@
-# KORG NTS-1 MKII — Custom Units & Presets (OSC, Reverb, Delay, Modulation)
+# KORG NTS-1 MKII — Custom OSC, Reverb, Delay, Modulation
 
 This repository contains custom units and preset files for the KORG NTS-1 MKII (file extension .nts1mkiiunit). You can find custom oscillators, effects (reverb, delay, chorus), and combined units that are ready to import into your NTS-1 MKII. MKII????? IS THIS A DREAM? NO!!! FINALLY THERE ARE SOME CUSTOM OSC'S (FOR FREE) FOR THE NEW VERSION OF THE KORG NTS1 !!!!! SO BUY SOME DUSTWHIPES AND GRAP YOUR KORG NTS1 MKII !! 
 
@@ -12,9 +12,7 @@ Why this repository
 - Easy to download and import
 - Organized by type (osc / effects / drums / atmospheres)
 
-Search keywords (SEO)
-KORG NTS-1, NTS1 MKII, nts1mkii, custom unit, preset, oscillator, reverb, delay, modulation, Korg NTS-1 presets
-y
+
 Installation
 1. Download the desired .nts1mkiiunit file from the `units` folder or from Releases.
 2. Upload in Korg Editor.
@@ -47,9 +45,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Contributing
-- Pull requests welcome. Please include a short description and (optional) screenshot or audio demo.
-- Use clear file naming: category_name.nts1mkiiunit (e.g. housekut.nts1mkiiunit)
+
 
 Contact
 - Open an Issue if you have questions or need help. Comments and tips or a simple Thank you is appreciated.
