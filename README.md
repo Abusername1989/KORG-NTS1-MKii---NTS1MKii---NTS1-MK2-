@@ -1,28 +1,24 @@
-# KORG NTS-1 MKII — Custom OSC, Reverb, Delay, Modulation
+# KORG NTS 1 MKII — Custom OSC, Reverb, Delay, Modulation
 
-This repository contains custom units and preset files for the KORG NTS-1 MKII (file extension .nts1mkiiunit). You can find custom oscillators, effects (reverb, delay, chorus), and combined units that are ready to import into your NTS-1 MKII. MKII????? IS THIS A DREAM? NO!!! FINALLY THERE ARE SOME CUSTOM OSC'S (FOR FREE) FOR THE NEW VERSION OF THE KORG NTS1 !!!!! SO BUY SOME DUSTWHIPES AND GRAP YOUR KORG NTS1 MKII !! 
+This repository contains custom oscillators (osc), effects (reverb, delay, chorus) units for the KORG NTS-1 MKII ( .nts1mkiiunit). Units that are ready to import into your NTS-1 MKII. MKII????? IS THIS A DREAM? NO!!! FINALLY THERE ARE SOME CUSTOM OSC'S (FOR FREE) FOR THE NEW VERSION OF THE KORG NTS1 !!!!! SO BUY SOME DUSTWHIPES AND GRAP YOUR KORG NTS1 MKII !! 
+
+In the beginning, I regretted not buying a second nts1mki, since there were many more oscillators available!  
+I decided to start building oscillators myself. I put a lot of time into it and I'm offering everything for free! There may still be some undiscovered bugs here and there!  
+USE AT YOUR OWN RISK BUT MOST IMPORTANT: HAVE FUN!! Feedback is welcome
+
+
+I think you guys will appreciate this! Bring out that mkii again!  
+
+* I personally use the SQ1 for step sequences.
 
 Repository layout
 - units/ — collection of .nts1mkiiunit files (presets & custom units)
 - docs/  — installation and usage instructions (how-to files)
 - housekut.nts1mkiiunit (root) — example preset
 
-Why this repository
-- Presets and custom units specifically made for the NTS-1 MKII
-- Easy to download and import
-- Organized by type (osc / effects / drums / atmospheres)
 
 
-Installation
-1. Download the desired .nts1mkiiunit file from the `units` folder or from Releases.
-2. Upload in Korg Editor.
-3. See "how to" for instructions (Some paramaters changed after how to is made). You probably don't read them anyway.
 
-Screenshots and demos
-- In progress
-
-License
-- 
 MIT License
 
 Copyright (c) 2025 Abusername1989
